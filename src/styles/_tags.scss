@@ -1,0 +1,46 @@
+@import 'colors';
+
+button {
+	border: none; //1px solid #606C5D;
+	padding: 1em 2em;
+	color: #606C5D;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	letter-spacing: 4px;
+	--c:  #FFF4F4; /* the color*/
+	
+	--_g: linear-gradient(var(--c) 0 0) no-repeat;
+	background: 
+	  var(--_g) calc(var(--_p,0%) - 100%) 0%,
+	  var(--_g) calc(200% - var(--_p,0%)) 0%,
+	  var(--_g) calc(var(--_p,0%) - 100%) 100%,
+	  var(--_g) calc(200% - var(--_p,0%)) 100%;
+	background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+	transition: background-size .4s, background-position 0s .4s;
+}
+
+button:hover {
+	--_p: 100%;
+	transition: background-position .4s, background-size 0s;
+}
+
+button:active {
+	box-shadow: 0 0 9e9q inset #0009; 
+	background-color: var(--c);
+	color: #fff;
+}
+
+header {
+	position: sticky;
+	display: flex;
+	gap: 40px;
+	padding: 0 50px;
+	// background: rgb(247,230,196);
+	// background: linear-gradient(180deg, rgba(247,230,196,1) 50%, rgba(247,230,196,0) 100%);
+	min-height: 100px;
+	align-items: center;
+	justify-content: right;
+	font-size: calc(10px + 2vmin);
+	border: none;
+}
+
