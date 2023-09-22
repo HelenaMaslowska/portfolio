@@ -7,9 +7,12 @@ import MainPage from './components/MainPage';
 /*
 													https://github.com/gitname/react-gh-pages
 	To run this app on website, you need to:
-	npm run deploy   (on master)
+	
+(on master)
+	npm run deploy   
 
-	git add .        (on master)
+(on master)
+	git add .        
 	git commit -m "Configure React app for deployment to GitHub Pages"
 	git push origin master
 
