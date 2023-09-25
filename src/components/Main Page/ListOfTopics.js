@@ -24,7 +24,7 @@ const projects = [
 		id: 3, 
 		title: 'IT',
 		photo: sample, 	
-		shortDescription: 'My passion encompasses programming, web design, API development, and graphic editing software creation. I thoroughly enjoy crafting algorithms that solve complex problems. Additionally, I design games, conduct training sessions, and organize thrilling game jams. For me, it\'s a path to continuous growth in the ever-evolving worlds of technology and creativity.', 	
+		shortDescription: 'My passion encompasses programming, web design and graphic editing software API. I enjoy crafting algorithms that solve complex problems. Additionally, I design games, conduct training sessions, and organize game jams. For me, it\'s a path to continuous growth in the ever-evolving worlds of technology and creativity.', 	
 		longDescription: ''
 	},
 	{
