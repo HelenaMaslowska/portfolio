@@ -1,8 +1,6 @@
 import React from 'react'
 import './Project.scss'
 
-import arrow from '../../images/arrow.svg'
-
 export default function Project(props) {
 	return (
 		
@@ -14,7 +12,7 @@ export default function Project(props) {
 		// </div>
 		<div className = "grid_6 card">
 			<img src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80" alt="" />
-			<div className="card-content">
+			<div className="card_content">
 				<h2>
 					{props.project.title}
 				</h2>

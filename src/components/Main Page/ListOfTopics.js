@@ -54,14 +54,17 @@ export default function ListOfTopics() {
 				<div className='container_12'>
 					<h1>Projects</h1>
 					<div className='clear'></div>
-					<div className='topicsList'>{ projects.map((project, i) => <Project key={project.id} project={project}/>) }</div>
+					<div className='topicsList'>
+						{ projects.map(project => <Project key={project.id} project={project}/>) }
+					</div>
 				</div>
 			)}
 			{width <= 1000 && (
-				<div>
+				<div className='container_12_300'>
 					<h1>Projects</h1>
+					<div className='clear'></div>
 					<div className='topicsList'>
-						{ projects.map((project, i) => <Project key={project.id} project={project}/>) }
+						{ projects.map(project => <Project key={project.id} project={project}/>) }
 					</div>
 				</div>
 			)}
