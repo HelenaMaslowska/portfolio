@@ -37,7 +37,9 @@ const projects = [
 ];
 
 export default function ListOfProjects() {
+
 	const [width, setWidth] = useState(window.innerWidth);
+
 	useEffect(() => {
 		function handleResize() {
 		  setWidth(window.innerWidth);
@@ -45,6 +47,7 @@ export default function ListOfProjects() {
 		window.addEventListener("resize", handleResize);
 		return () => window.removeEventListener("resize", handleResize);
 	  }, [width]);
+
 	return (
 		<div>
 			{width > 1000 && (

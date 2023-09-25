@@ -8,6 +8,7 @@ export default function WelcomeLayout() {
 	<div className="home">
 		<div className="background">
 			<img src={img} alt="dots" />
+
 			<div className="leftSide">
 				<div className="name">
 					Helena Masłowska
@@ -16,6 +17,7 @@ export default function WelcomeLayout() {
 					Frontend Developer
 				</div>
 			</div>
+			
 			<div className="rightSide">
 				<img className="profile" src="https://avatars.githubusercontent.com/u/62292197?v=4" alt="avatar" />
 			</div>

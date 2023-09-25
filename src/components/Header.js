@@ -8,13 +8,12 @@ export default function Header() {
 	<header>
 		<div className="headerImage">
 			<img src={brush} alt=""/>
-			
 		</div>
 		
 		<div className="headerButtons">
-			<Link to=""><button>Home</button></Link>
-			<Link to="projects"><button>Projects</button></Link>
-			<Link to="contact"><button>Contact me</button></Link>
+			<Link to="">			<button>Home</button>		</Link>
+			<Link to="projects">	<button>Projects</button>	</Link>
+			<Link to="contact">		<button>Contact me</button>	</Link>
 		</div>
 	</header>
   )

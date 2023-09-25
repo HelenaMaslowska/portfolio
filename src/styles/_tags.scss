@@ -4,7 +4,7 @@ header {
 	position: sticky;
 	display: flex;
 	gap: 40px;
-	padding: 0 50px;
+	padding: 0 clamp(0px,2vw, 50px);
 	// background: rgb(247,230,196);
 	// background: linear-gradient(180deg, rgba(247,230,196,1) 50%, rgba(247,230,196,0) 100%);
 	min-height: 100px;
