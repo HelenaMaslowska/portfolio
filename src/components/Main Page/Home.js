@@ -1,14 +1,14 @@
 import React from 'react'
 import './Home.scss';
 
-import WelcomeLayout from './WelcomeLayout';
-import ListOfProjects from './ListOfProjects';
+import WelcomeLayout from '../WelcomeLayout';
+import ListOfTopics from './ListOfTopics';
 
 export default function Home() {
 	return (
 	<div>
 		<WelcomeLayout />
-		<ListOfProjects />
+		<ListOfTopics />
 	</div>
 	)
 }

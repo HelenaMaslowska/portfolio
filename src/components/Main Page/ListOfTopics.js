@@ -1,16 +1,16 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import './ListOfProjects.scss'
+import './ListOfTopics.scss'
 
 import Project from './Project';
-import sample from '../images/cardboard.jpg';
+import sample from '../../images/cardboard.jpg';
 
 const projects = [
 	{
 		id: 1,
 		title: 'Furnitures',
 		photo: sample, 	
-		shortDescription: 'I design them from scratch, creating unique pieces that are both environmentally conscious and a testament to my design and crafting abilities.',
+		shortDescription: 'I create furniture from cardboard and wood, including personalized coasters, shoe cabinets, and drawers. My eco-conscious approach repurposes found materials, blending sustainability with functional design for enhanced living spaces.',
 		longDescription: ''
 	},
 	{
@@ -31,12 +31,12 @@ const projects = [
 		id: 4, 
 		title: 'Models',
 		photo: sample, 	
-		shortDescription: 'Blender isn\'t just a tool for creating stunning 3D graphics and animations. For me, it\'s a vital part of my planning and design process, bridging the gap between the virtual world and reality.', 	
+		shortDescription: 'I model my designs in Blender, leveraging its versatility and precision. Some of these projects are brought to life through 3D printing, adding another dimension to my creative process. From digital concepts to tangible objects, Blender is my bridge to turning imagination into reality.', 	
 		longDescription: ''
 	},
 ];
 
-export default function ListOfProjects() {
+export default function ListOfTopics() {
 
 	const [width, setWidth] = useState(window.innerWidth);
 
@@ -54,13 +54,13 @@ export default function ListOfProjects() {
 				<div className='container_12'>
 					<h1>Projects</h1>
 					<div className='clear'></div>
-					<div className='projectsList'>{ projects.map((project, i) => <Project key={project.id} project={project}/>) }</div>
+					<div className='topicsList'>{ projects.map((project, i) => <Project key={project.id} project={project}/>) }</div>
 				</div>
 			)}
 			{width <= 1000 && (
 				<div>
 					<h1>Projects</h1>
-					<div className='projectsList'>
+					<div className='topicsList'>
 						{ projects.map((project, i) => <Project key={project.id} project={project}/>) }
 					</div>
 				</div>

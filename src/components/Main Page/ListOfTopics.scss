@@ -1,13 +1,14 @@
-@import "../styles/container_12";
+@import "../../styles/container_12";
 
-.projectsList {
-	padding-bottom: 500px;
+.topicsList {
+	padding-bottom: 200px;
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
-	.projectsList {
+	.topicsList {
 		display: flex;
 		flex-direction: column;
 		align-content: center;
