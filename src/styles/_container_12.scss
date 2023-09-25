@@ -13,9 +13,9 @@
   Note: IE6 works fine without this fix.
 */
 
-body {
-  min-width: 960px;
-}
+// body {
+//   min-width: 960px;
+// }
 
 /* `Container
 ----------------------------------------------------------------------------------------------------*/
@@ -23,6 +23,7 @@ body {
 .container_12 {
   margin-left: auto;
   margin-right: auto;
+  min-width: unset;
   width: 960px;
 }
 

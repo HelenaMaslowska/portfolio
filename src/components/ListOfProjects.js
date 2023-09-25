@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import './ListOfProjects.scss'
 
 import Project from './Project';
@@ -36,11 +37,31 @@ const projects = [
 ];
 
 export default function ListOfProjects() {
+	const [width, setWidth] = useState(window.innerWidth);
+	useEffect(() => {
+		function handleResize() {
+		  setWidth(window.innerWidth);
+		}
+		window.addEventListener("resize", handleResize);
+		return () => window.removeEventListener("resize", handleResize);
+	  }, [width]);
 	return (
-		<div className='container_12'>
-			<h1>Projects</h1>
-			<div className='clear'></div>
-			<div className='projectsList'>{ projects.map((project, i) => <Project key={project.id} project={project}/>) }</div>
+		<div>
+			{width > 1000 && (
+				<div className='container_12'>
+					<h1>Projects</h1>
+					<div className='clear'></div>
+					<div className='projectsList'>{ projects.map((project, i) => <Project key={project.id} project={project}/>) }</div>
+				</div>
+			)}
+			{width <= 1000 && (
+				<div>
+					<h1>Projects</h1>
+					<div className='projectsList'>
+						{ projects.map((project, i) => <Project key={project.id} project={project}/>) }
+					</div>
+				</div>
+			)}
 		</div>
 	)
 }
