@@ -1,7 +1,7 @@
 import React from 'react'
-import './Project.scss'
+import './Topic.scss'
 
-export default function Project(props) {
+export default function Topic(props) {
 	return (
 		
 		// <div className='grid_6 topic'>

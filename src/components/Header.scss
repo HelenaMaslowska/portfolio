@@ -1,11 +1,23 @@
 header {
+	display: flex;
+	gap: 40px;
+	padding: 0 clamp(0px,2vw, 50px);
+	min-height: 100px;
+	align-items: center;
+	justify-content: right;
+	font-size: calc(10px + 2vmin);
+	border: none;
+	position: fixed;
+    right: 0px;
+    z-index: 1;
+	
 	.headerImage {
 		position: absolute;
 		display: flex;
 		justify-content: flex-end;
 		height: 150px;
 		flex-wrap: nowrap;
-		z-index: 0;
+		z-index: -1;
 	}
 
 	.headerButtons {
@@ -17,7 +29,7 @@ header {
 		align-items: center;
 		flex-wrap: wrap;
 		justify-content: center;
-		z-index: 1;
+		z-index: 0;
 
 		button {
 			border: none; //1px solid #606C5D;

@@ -1,7 +1,7 @@
 import React from 'react'
 import './WelcomeLayout.scss';
 
-import img from '../images/square-dot.svg';
+import img from '../../images/square-dot.svg';
 
 export default function WelcomeLayout() {
   return (

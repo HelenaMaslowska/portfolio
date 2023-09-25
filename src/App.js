@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
 import Home from './components/Main Page/Home';
 import Contact from './components/Contact';
-import Gallery from './components/Gallery';
+import Gallery from './components/Gallery of Projects/Gallery';
 
 /*
 													https://github.com/gitname/react-gh-pages

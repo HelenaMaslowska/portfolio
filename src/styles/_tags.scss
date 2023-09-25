@@ -1,22 +1,9 @@
 @import "fonts";
 
-header {
-	position: sticky;
-	display: flex;
-	gap: 40px;
-	padding: 0 clamp(0px,2vw, 50px);
-	// background: rgb(247,230,196);
-	// background: linear-gradient(180deg, rgba(247,230,196,1) 50%, rgba(247,230,196,0) 100%);
-	min-height: 100px;
-	align-items: center;
-	justify-content: right;
-	font-size: calc(10px + 2vmin);
-	border: none;
-}
-
 h1 {
 	font-family: $font-primary;
 	font-size: clamp(36px, 5vw, 48px);
+	margin: 16px 0;
 }
 
 h2 {
