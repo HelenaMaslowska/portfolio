@@ -1,0 +1,15 @@
+@import "../styles/container_12";
+
+.projectsList {
+	padding-bottom: 500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 1000px) {
+	.projectsList {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+}

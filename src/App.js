@@ -1,8 +1,10 @@
-import logo from './logo.svg';
 import './App.scss';
 import React from 'react';
-import Header from './components/Header.js';
-import MainPage from './components/MainPage';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './Layout';
+import Home from './components/Home';
+import Contact from './components/Contact';
+import Gallery from './components/Gallery';
 
 /*
 													https://github.com/gitname/react-gh-pages
@@ -12,7 +14,7 @@ import MainPage from './components/MainPage';
 	npm run deploy   
 
 (on master)
-	git add .        
+	git add .
 	git commit -m "Configure React app for deployment to GitHub Pages"
 	git push origin master
 
@@ -21,9 +23,15 @@ import MainPage from './components/MainPage';
 */
 export default function App() {
 	return (
-	<div>
-		<Header />
-		<MainPage />
-	</div>
+	<BrowserRouter>
+		<Routes>
+			<Route path="/portfolio" element={<Layout />}>
+				<Route index element={<Home />} />
+				<Route path="projects" element={<Gallery />} />
+				<Route path="contact" element={<Contact />} />
+			{/*	<Route path="*" element={<NoPage />} /> */}
+			</Route>
+		</Routes>
+	</BrowserRouter>
 	);
 }
