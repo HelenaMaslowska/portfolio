@@ -1,0 +1,98 @@
+@import "../../styles/colors";
+@import "../../styles/fonts";
+
+.card {
+	height: 24rem;
+	border-radius: 10px;
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+	color: $secondary;
+	box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
+	margin-bottom: 20px;
+
+	img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		opacity: 0.9;
+		transition: opacity .2s ease-out;
+	}
+
+	h2 {
+		position: absolute;
+		inset: auto auto 30px 30px;
+		margin: 0;
+		transition: inset .3s .3s ease-out;
+		font-family: $font-secondary, sans-serif;
+		letter-spacing: 0.24em;
+		font-weight: normal;
+		text-transform: uppercase;
+	}
+	
+	p, a {
+		position: absolute;
+		opacity: 0;
+		max-width: 100%;
+		margin: 16px 0;
+		transition: opacity .3s ease-out;
+	}
+	
+	p {
+		inset: auto 30px 30px 30px;
+		display: flex;
+	}
+	
+	a {
+		inset: auto auto 40px 30px;
+		color: inherit;
+		text-decoration: none;
+	}
+	
+	&:hover h2 {
+		inset: auto auto 220px 30px;
+		transition: inset .3s ease-out;
+	}
+	
+	&:hover p, &:hover a {
+		opacity: 1;
+		transition: opacity .5s .1s ease-in;
+	}
+	
+	&:hover img {
+		transition: opacity .3s ease-in;
+		opacity: 1;
+	}
+
+	@media (min-width: 400px) and (max-width: 1000px) {
+		height: 20rem;
+		width:100%;
+		display: flex;
+		flex-direction: column;
+
+		&:hover h2 {
+			inset: auto auto 15rem 30px;
+			transition: inset .3s ease-out;
+		}
+	}
+
+	@media (max-width: 400px) {
+		height: 20rem;
+		width:100%;
+		display: flex;
+		flex-direction: column;
+
+		h2 {
+			transition: none;
+		}
+
+		&:hover h2 {
+			opacity: 0;
+		}
+	}
+	
+}
+
+.material-symbols-outlined {
+vertical-align: middle;
+}

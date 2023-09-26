@@ -2,9 +2,9 @@ import './App.scss';
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
-import Home from './components/Main Page/Home';
+import Home from './components/MainPage/Home';
 import Contact from './components/Contact';
-import Gallery from './components/Gallery of Projects/Gallery';
+import Gallery from './components/GalleryOfProjects/Gallery';
 
 /*
 													https://github.com/gitname/react-gh-pages
