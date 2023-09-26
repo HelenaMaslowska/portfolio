@@ -1,5 +1,6 @@
 import React from 'react'
 import './ListOfProjects.scss'
+import Project from './Project.js'
 
 export default function ListOfProjects(props) {
   return (
@@ -10,7 +11,10 @@ export default function ListOfProjects(props) {
 		</div>
 
 		<div className='description'>
-			DESCRIPTION lorem ipsum et cetera et cetera et cetera et cetera et cetera et cetera et cetera et cetera
+			<Project />
+			<Project />
+			<Project />
+			<Project />
 		</div>
 	</div>
   )

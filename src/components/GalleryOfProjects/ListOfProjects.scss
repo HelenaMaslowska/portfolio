@@ -23,4 +23,17 @@
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
+
+	
 }
+.description {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		font-size: 24px;
+		text-align: center;
+		letter-spacing: 0.2rem;
+		gap: 30px;
+	}

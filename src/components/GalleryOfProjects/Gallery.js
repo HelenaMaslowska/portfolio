@@ -43,9 +43,11 @@ export default function Gallery() {
 	return (
 		<div>
 			<WelcomeGallery />
-			{topics.map((topic) => ( 
-				<ListOfProjects key={topic.id} topic={topic} />
-			))}
+			<div className="container_12 listOfProjectsContainer">
+				{topics.map((topic) => ( 
+					<ListOfProjects key={topic.id} topic={topic} />
+				))}
+			</div>
 		</div>
 	)
 }
