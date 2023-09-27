@@ -10,7 +10,7 @@ export default function ListOfProjects(props) {
 			<div className='title'>{props.topic.title}</div>
 		</div>
 
-		<div className='description'>
+		<div className='listOfProjects'>
 			<Project />
 			<Project />
 			<Project />
