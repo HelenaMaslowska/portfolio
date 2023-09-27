@@ -40,10 +40,9 @@
 		
 	}
 
-	@media (max-width: 1000px) {
+	@media (max-width: 768px) {
 		overflow-x: hidden;
-		background-size: contain;
-		background-size: auto 100vh;
+		background-size: auto 100%;
 		
 		.content {
 			align-content: center;
