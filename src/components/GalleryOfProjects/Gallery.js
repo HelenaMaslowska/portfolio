@@ -58,7 +58,7 @@ export default function Gallery() {
 			{width > 1000 && (
 				<div className="container_12 listOfProjectsContainer">
 					{topics.map((topic) => ( 
-						<ListOfProjects key={topic.id} topic={topic} />
+						<ListOfProjects id={topic.id} key={topic.id} topic={topic} />
 					))}
 				</div>
 			)}

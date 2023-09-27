@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './ListOfTopics.scss'
 
 import Topic from './Topic';
@@ -56,7 +57,7 @@ export default function ListOfTopics() {
 					<h1>Projects</h1>
 					<div className='clear'></div>
 					<div className='topicsList'>
-						{ projects.map(project => <Topic key={project.id} project={project}/>) }
+						{ projects.map(project => <Link to="/portfolio/projects/#IT" > <Topic key={project.id} project={project}/> </Link>) }
 					</div>
 				</div>
 			)}

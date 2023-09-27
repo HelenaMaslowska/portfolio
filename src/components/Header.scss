@@ -1,7 +1,6 @@
 header {
 	display: flex;
-	gap: 40px;
-	padding: 0 clamp(0px,2vw, 50px);
+	padding: 0 clamp(0px,2vw, 20px);
 	min-height: 100px;
 	align-items: center;
 	justify-content: right;
@@ -64,13 +63,25 @@ header {
 		}
 	}
 
-	@media (max-width: 768px) {  // TODO: mobile version
-		width:100%;
+	@media (min-width: 400px) and (max-width: 768px) {  // TODO: mobile version
+		width:100vw;
 		justify-content: center;
 
 		.headerImage {
 			right: unset;
 		}
 	}
+
+	@media (max-width: 400px) {  // TODO: mobile version
+		width:100vw;
+		justify-content: center;
+
+		.headerImage {
+			padding: 0 clamp(0px,2vw, 20px);
+			left: 0px;
+			overflow: hidden;
+		}
+	}
+
 
 }
