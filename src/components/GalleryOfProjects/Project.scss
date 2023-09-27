@@ -21,9 +21,14 @@
 		object-fit: cover;
 	}
 
-	@media (min-width: 1000px) {
+	@media (max-width: 1000px) {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 		.projectPhoto {
 			
+			margin: 0;
+			width:80vw;
 		}
 	}
 }
