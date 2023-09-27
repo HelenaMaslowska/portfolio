@@ -11,10 +11,9 @@ export default function ListOfProjects(props) {
 		</div>
 
 		<div className='listOfProjects'>
-			<Project />
-			<Project />
-			<Project />
-			<Project />
+			{props.topic.list.map((project) => ( 
+				<Project key={project.id} project={project} />
+			))}
 		</div>
 	</div>
   )
