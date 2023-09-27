@@ -42,7 +42,7 @@
 
 	@media (max-width: 1000px) {
 		overflow-x: hidden;
-		background-size: unset;
+		background-size: contain;
 		background-size: auto 100vh;
 		
 		.content {
