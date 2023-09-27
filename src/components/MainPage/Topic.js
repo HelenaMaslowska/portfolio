@@ -16,7 +16,7 @@ export default function Topic(props) {
 				<h2>
 					{props.project.title}
 				</h2>
-				<p className="description">
+				<p className="topicDescription">
 					{props.project.shortDescription}
 				</p>
 			</div>

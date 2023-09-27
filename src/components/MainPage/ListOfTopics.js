@@ -49,7 +49,7 @@ export default function ListOfTopics() {
 		return () => window.removeEventListener("resize", handleResize);
 	  }, [width]);
 
-	return (
+	return ( // how to grid: https://codepen.io/luclemo/pen/VGrOjv
 		<div>
 			{width > 1000 && (
 				<div className='container_12'>
