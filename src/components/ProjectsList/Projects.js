@@ -48,13 +48,30 @@ export const projects = [
 		longDescription: '',
 		list: [
 			{
+				id: 0,
+				photos: [
+					{
+						photo: sample,
+					},
+					{
+						photo: sample,
+					},
+					{
+						photo: sample,
+					}
+				]
+			},
+			{
 				id:1,
 				title: 'Paintings project',
-				photo: sample,
+				photos: [{
+					photo: sample,
+				}]
 			},
 			{
 				id: 2,
 				title: 'Paintings project 2',
+				description: "blwwwwwwwwwwwww wwwwwwwwwwwwwww wwablwwwwwww wwwwwwww wwwwwwwwwwwww wwa"
 			}
 		]
 	},
