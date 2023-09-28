@@ -1,1 +1,6 @@
 @import 'tags';
+@import 'colors';
+
+*::selection {
+  background-color: #a6882d;
+}

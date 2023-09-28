@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
 import Home from './components/MainPage/Home';
-import Contact from './components/Contact';
+import Contact from './components/Contact/Contact';
 import Gallery from './components/GalleryOfProjects/Gallery';
 
 /*
