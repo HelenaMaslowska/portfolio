@@ -1,23 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a46d24fb.css",
-    "main.js": "/portfolio/static/js/main.e5876d4b.js",
+    "main.js": "/portfolio/static/js/main.bea3fd46.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/F03.JPEG": "/portfolio/static/media/F03.c1c9bfc4536d3893da14.JPEG",
     "static/media/F02.JPEG": "/portfolio/static/media/F02.5411ef4ccc1045c5300d.JPEG",
     "static/media/cardboard.jpg": "/portfolio/static/media/cardboard.c74560f2316cc9090b56.jpg",
     "static/media/Bg_vertical.png": "/portfolio/static/media/Bg_vertical.cb7a1dbac14b0e410875.png",
     "static/media/Bg_contact.png": "/portfolio/static/media/Bg_contact.038c82d2038f58b2e04b.png",
-    "static/media/F01.JPEG": "/portfolio/static/media/F01.76b2071fd3cd0e72ac5a.JPEG",
+    "static/media/F12.JPEG": "/portfolio/static/media/F12.a4628a323eb2b92413be.JPEG",
+    "static/media/F11.JPEG": "/portfolio/static/media/F11.c11308fce5cce604b0c7.JPEG",
+    "static/media/F14.jpg": "/portfolio/static/media/F14.c009e3ceb0fae7c8b5a6.jpg",
+    "static/media/F15.JPEG": "/portfolio/static/media/F15.adc1c7b92e10c6cd1601.JPEG",
+    "static/media/F01.JPEG": "/portfolio/static/media/F01.1a3c41b04c35d59e3205.JPEG",
+    "static/media/F13.JPEG": "/portfolio/static/media/F13.d16f79eea464b02aa9d4.JPEG",
     "static/media/brush-stroke.svg": "/portfolio/static/media/brush-stroke.dd9ec9236b5ba9ec3ac9d45678ed2635.svg",
     "static/media/square-dot.svg": "/portfolio/static/media/square-dot.250401a0308e69c385ea02b0789edc18.svg",
     "index.html": "/portfolio/index.html",
     "main.a46d24fb.css.map": "/portfolio/static/css/main.a46d24fb.css.map",
-    "main.e5876d4b.js.map": "/portfolio/static/js/main.e5876d4b.js.map",
+    "main.bea3fd46.js.map": "/portfolio/static/js/main.bea3fd46.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a46d24fb.css",
-    "static/js/main.e5876d4b.js"
+    "static/js/main.bea3fd46.js"
   ]
 }
