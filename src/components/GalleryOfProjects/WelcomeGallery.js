@@ -8,7 +8,7 @@ export default function WelcomeGallery() {
 	<section className='welcomeGallery'>
 		<div className='container_12 content'>
 			<h1>Projects</h1>
-			<div>Welcome to my gallery, there is empty for now but it will change soon!</div>
+			<div>Welcome to my gallery, WIP!</div>
 		</div>
 	</section>
   )
