@@ -25,14 +25,7 @@
 		padding: 10px 0;
 	}
 
-	ImageGallery {
-		width: 100%;
-	}
-
 	@media (max-width: 1000px) {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
 		.projectPhoto {
 			padding: 10px 0;
 			margin: 0;
