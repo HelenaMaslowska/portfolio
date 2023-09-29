@@ -1,22 +1,24 @@
 import sample from '../../images/cardboard.jpg';
-// how to create thumbnails: http://makethumbnails.com/#options
+// thumbnails: http://makethumbnails.com/#options
+// heic to jpg: https://convertio.co/pl/
+// compress jpg: https://www.iloveimg.com/compress-image
 
 /* FURNITURES */
 // 1 furniture
-import cardboardfurniture1 from '../../images/Furnitures/Cardboard/F01.JPEG';
-import cardboardfurniture2 from '../../images/Furnitures/Cardboard/F02.JPEG';
-import cardboardfurniture3 from '../../images/Furnitures/Cardboard/F03.JPEG';
+import cardboardfurniture1 from '../../images/Furnitures/Cardboard/F01.jpeg';
+import cardboardfurniture2 from '../../images/Furnitures/Cardboard/F02.jpeg';
+import cardboardfurniture3 from '../../images/Furnitures/Cardboard/F03.jpeg';
 
 import cardboardfurniture1t from '../../images/Furnitures/Cardboard/F01_tn.jpg';
 import cardboardfurniture2t from '../../images/Furnitures/Cardboard/F02_tn.jpg';
 import cardboardfurniture3t from '../../images/Furnitures/Cardboard/F03_tn.jpg';
 
 // 1 furniture
-import realfurniture1 from '../../images/Furnitures/Wood/F11.JPEG';
-import realfurniture2 from '../../images/Furnitures/Wood/F12.JPEG';
-import realfurniture3 from '../../images/Furnitures/Wood/F13.JPEG';
+import realfurniture1 from '../../images/Furnitures/Wood/F11.jpeg';
+import realfurniture2 from '../../images/Furnitures/Wood/F12.jpeg';
+import realfurniture3 from '../../images/Furnitures/Wood/F13.jpeg';
 import realfurniture4 from '../../images/Furnitures/Wood/F14.jpg';
-import realfurniture5 from '../../images/Furnitures/Wood/F15.JPEG';
+import realfurniture5 from '../../images/Furnitures/Wood/F15.jpeg';
 
 import realfurniture1t from '../../images/Furnitures/Wood/F11_tn.jpg';
 import realfurniture2t from '../../images/Furnitures/Wood/F12_tn.jpg';
@@ -66,6 +68,10 @@ import mandala10 from '../../images/Paintings/Mandalas/M10.jpg';
 import mandala11 from '../../images/Paintings/Mandalas/M11.jpg';
 import mandala12 from '../../images/Paintings/Mandalas/M12.jpg';
 import mandala13 from '../../images/Paintings/Mandalas/M13.jpg';
+import mandala14 from '../../images/Paintings/Mandalas/M14.jpg';
+import mandala15 from '../../images/Paintings/Mandalas/M15.jpg';
+import mandala16 from '../../images/Paintings/Mandalas/M16.jpg';
+import mandala17 from '../../images/Paintings/Mandalas/M17.jpg';
 
 import mandala1t from '../../images/Paintings/Mandalas/M01_tn.jpg';
 import mandala2t from '../../images/Paintings/Mandalas/M02_tn.jpg';
@@ -80,7 +86,17 @@ import mandala10t from '../../images/Paintings/Mandalas/M10_tn.jpg';
 import mandala11t from '../../images/Paintings/Mandalas/M11_tn.jpg';
 import mandala12t from '../../images/Paintings/Mandalas/M12_tn.jpg';
 import mandala13t from '../../images/Paintings/Mandalas/M13_tn.jpg';
+import mandala14t from '../../images/Paintings/Mandalas/M14_tn.jpg';
+import mandala15t from '../../images/Paintings/Mandalas/M15_tn.jpg';
+import mandala16t from '../../images/Paintings/Mandalas/M16_tn.jpg';
+import mandala17t from '../../images/Paintings/Mandalas/M17_tn.jpg';
 
+// 2 art
+import art1 from '../../images/Paintings/Art/A01.jpg';
+import art2 from '../../images/Paintings/Art/A02.jpg';
+
+import art1t from '../../images/Paintings/Art/A01_tn.jpg';
+import art2t from '../../images/Paintings/Art/A02_tn.jpg';
 
 export const projects = [
 	{
@@ -99,7 +115,7 @@ export const projects = [
 	{
 		id: 2,
 		title: 'Furnitures',
-		photo: sample, 	
+		photo: realfurniture2, 	
 		shortDescription: 'I create furniture from cardboard and wood, including personalized coasters, shoe cabinets, and drawers. My eco-conscious approach repurposes found materials, blending sustainability with functional design for enhanced living spaces.',
 		longDescription: '',
 		list: [
@@ -140,7 +156,7 @@ export const projects = [
 					},
 					{
 						original: realfurniture2,
-						thumbnail: realfurniture2t,
+						thumbnail: realfurniture2t, 
 
 					},
 					{
@@ -167,31 +183,14 @@ export const projects = [
 	{
 		id: 4, 
 		title: 'Paintings', 	
-		photo: sample, 	
+		photo: landscape5, 	
 		shortDescription: 'I also paint pictures, mainly focusing on birds and landscapes. My artwork captures the beauty of nature, with a particular emphasis on avian subjects and scenic vistas. It\'s another way for me to express my artistic sensibilities and connect with the natural world.', 	
 		longDescription: '',
 		list: [
 			{
 				id: 1,
-				title: 'Birds',
-				photos: [
-					{
-						original: bird3,
-						thumbnail: bird3t,
-					},
-					{
-						original: bird2,
-						thumbnail: bird2t,
-					},
-					{
-						original: bird1,
-						thumbnail: bird1t,
-					}
-				]
-			},
-			{
-				id: 2,
 				title: 'Landscapes',
+				description: 'I began my journey in painting at the age of 13, with everything taking root in my middle school art teacher\'s workshop. At the outset, my artistic endeavors didn\'t involve painting; instead, my knack for precision developed through crafting origami during my elementary school years. The first two paintings were gifts, while the following two were sold pieces. The last painting, shown at the end, marks my first-ever canvas artwork.',
 				photos: [
 					{
 						original: landscape7,
@@ -224,8 +223,28 @@ export const projects = [
 				]
 			},
 			{
+				id: 2,
+				title: 'Birds',
+				description: 'I absolutely adore painting birds.',
+				photos: [
+					{
+						original: bird3,
+						thumbnail: bird3t,
+					},
+					{
+						original: bird2,
+						thumbnail: bird2t,
+					},
+					{
+						original: bird1,
+						thumbnail: bird1t,
+					}
+				]
+			},
+			{
 				id: 3,
 				title: 'Mandalas',
+				description: 'The mandala displayed in the first photo was completed in 2020. Notably, I began this artistic journey at the age of 15. Each design is a unique creation, reflecting my personal artistic journey and creative evolution. They are organized in chronological order from the oldest to the most recent, excluding the first one. After several attempts on notebook paper, Geometry was my first official mandala, and it was created in 2017. To this day, I continue to paint mandalas and I aspire to write a book about them.',
 				photos: [
 					{
 						original: mandala1,
@@ -278,11 +297,42 @@ export const projects = [
 					{
 						original: mandala13,
 						thumbnail: mandala13t,
+					},
+					{
+						original: mandala14,
+						thumbnail: mandala14t,
+					},
+					{
+						original: mandala15,
+						thumbnail: mandala15t,
+					},
+					{
+						original: mandala16,
+						thumbnail: mandala16t,
+					},
+					{
+						original: mandala17,
+						thumbnail: mandala17t,
 					}
 				]
 			},
 			{
 				id: 4,
+				title: 'Art',
+				description: 'I sold some of my paintings, including the one displayed in the second photo.',
+				photos: [
+					{
+						original: art2,
+						thumbnail: art2t,
+					},
+					{
+						original: art1,
+						thumbnail: art1t,
+					}
+				]
+			},
+			{
+				id: 5,
 				title: 'Paintings project 2',
 				description: "blwwwwwwwwwwwww wwwwwwwwwwwwwww wwablwwwwwww wwwwwwww wwwwwwwwwwwww wwa"
 			}
