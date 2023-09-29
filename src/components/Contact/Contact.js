@@ -18,7 +18,6 @@ export default function Contact() {
 		<section className='contactPage'>
 			{width > 1000 && (
 				<div className='container_12 content'>
-
 					<h2>Send email to Helena Masłowska</h2>
 
 					<h1>Let's chat. Tell me about your project.</h1>
