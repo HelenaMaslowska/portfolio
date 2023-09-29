@@ -7,11 +7,15 @@ import sample from '../../images/cardboard.jpg';
 // 1 furniture
 import cardboardfurniture1 from '../../images/Furnitures/Cardboard/F01.jpeg';
 import cardboardfurniture2 from '../../images/Furnitures/Cardboard/F02.jpeg';
-import cardboardfurniture3 from '../../images/Furnitures/Cardboard/F03.jpeg';
+import cardboardfurniture3 from '../../images/Furnitures/Cardboard/F03.jpg';
+import cardboardfurniture4 from '../../images/Furnitures/Cardboard/F04.jpg';
+import cardboardfurniture5 from '../../images/Furnitures/Cardboard/F05.jpg';
 
 import cardboardfurniture1t from '../../images/Furnitures/Cardboard/F01_tn.jpg';
 import cardboardfurniture2t from '../../images/Furnitures/Cardboard/F02_tn.jpg';
 import cardboardfurniture3t from '../../images/Furnitures/Cardboard/F03_tn.jpg';
+import cardboardfurniture4t from '../../images/Furnitures/Cardboard/F04_tn.jpg';
+import cardboardfurniture5t from '../../images/Furnitures/Cardboard/F05_tn.jpg';
 
 // 1 furniture
 import realfurniture1 from '../../images/Furnitures/Wood/F11.jpeg';
@@ -122,7 +126,16 @@ export const projects = [
 			{
 				id:1,
 				title: 'My first furniture using cardboard',
+				description: 'I crafted my first piece of furniture from cardboard, dedicating 10 days of work. It was for my purposes. Constructed from cardboard, securely fastened with glue. Used every day to store items. I was surprised how strong cardboard could be.',
 				photos: [
+					{
+						original: cardboardfurniture5,
+						thumbnail: cardboardfurniture5t,
+					},
+					{
+						original: cardboardfurniture4,
+						thumbnail: cardboardfurniture4t,
+					},
 					{
 						original: cardboardfurniture3,
 						thumbnail: cardboardfurniture3t,
@@ -319,22 +332,17 @@ export const projects = [
 			{
 				id: 4,
 				title: 'Art',
-				description: 'I sold some of my paintings, including the one displayed in the second photo.',
+				description: 'I sold the one displayed in the first photo.',
 				photos: [
-					{
-						original: art2,
-						thumbnail: art2t,
-					},
 					{
 						original: art1,
 						thumbnail: art1t,
+					},
+					{
+						original: art2,
+						thumbnail: art2t,
 					}
 				]
-			},
-			{
-				id: 5,
-				title: 'Paintings project 2',
-				description: "blwwwwwwwwwwwww wwwwwwwwwwwwwww wwablwwwwwww wwwwwwww wwwwwwwwwwwww wwa"
 			}
 		]
 	},
