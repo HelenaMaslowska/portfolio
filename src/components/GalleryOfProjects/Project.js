@@ -16,8 +16,19 @@ export default function Project(props) {
 				// props.project.photos.map((element) => ( <img className='grid_4 projectPhoto' src={element.photo} alt="" />  ))
 		)}
 		{/* <img className='grid_8 prefix_2 suffix_9 projectPhoto' src={props.project.photo} alt=""/> */}
+
+		{ props.project.link && (
+			<a className='push_1 grid_10 projectUrl' href={props.project.link} target='_blank' rel='noreferrer'>
+				<img src={props.project.icon} alt='icon'/>
+				{props.project.title}
+			</a>
+		)}
+
 		{ props.project.description && (
-			<div className='grid_12 projectDescription'>	{props.project.description}			</div>
+			<div className='push_1 grid_10 projectDescription'>	{props.project.description}			</div>
+		)}
+		{ props.project.description2 && (
+			<div className='push_1 grid_10 projectDescription'>	{props.project.description2}			</div>
 		)}
 	</div>
 	)

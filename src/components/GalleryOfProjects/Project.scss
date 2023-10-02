@@ -1,4 +1,5 @@
 @import "../../styles/fonts";
+@import "../../styles/colors";
 
 .projectContent {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -10,14 +11,37 @@
 		font-size: 36px;
 	}
 
+	.projectUrl:link, .projectUrl:visited {
+		margin: 20px 10px 10px 10px;
+		background-color: $primary;
+		color: white;
+		padding: 14px 0;
+		text-align: center;
+		text-decoration: none;
+
+		img {
+			width: 20px;
+			height: 20px;
+			margin: 0 10px;
+		}
+	}
+	
+	.projectUrl:hover, .projectUrl:active {
+		background-color: $accent;
+		color: black;
+	}
+
 	.projectDescription {
 		text-align: left;
-		padding: 20px 0 ;
+		padding: 10px 0 ;
 		font-family: $font-tertiary;
 		font-size: 18px;
 		letter-spacing: 0.1rem;
 		text-align: justify;
 		line-height: 24px;
+	}
+	.projectDescription:nth-of-type(even) {
+		padding: 0 0 20px 0;
 	}
 
 	.projectPhoto {
@@ -30,6 +54,10 @@
 			padding: 10px 0;
 			margin: 0;
 			width:80vw;
+		}
+
+		.projectUrl {
+			padding: 14px 28px !important;
 		}
 	}
 }

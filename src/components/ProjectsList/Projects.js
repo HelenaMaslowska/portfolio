@@ -3,15 +3,29 @@ import sample from '../../images/cardboard.jpg';
 // heic to jpg: https://convertio.co/pl/
 // compress jpg: https://www.iloveimg.com/compress-image
 
+/* ICONS */
+import github from '../../images/Icons/github.png';
+import youtube from '../../images/Icons/youtube.png';
+
+/* IT */
+// IT background
+import ITbackground from '../../images/IT/IT.jpg';
+// 1 game
+import bombs1 from '../../images/IT/BombsOnline/B01.png';
+import bombs2 from '../../images/IT/BombsOnline/B02_copy.png';
+import bombs3 from '../../images/IT/BombsOnline/B03.png';
+
+import bombs1t from '../../images/IT/BombsOnline/B01_tn.jpg';
+import bombs2t from '../../images/IT/BombsOnline/B02_copy_tn.jpg';
+import bombs3t from '../../images/IT/BombsOnline/B03_tn.jpg';
+
 /* FURNITURES */
 // 1 furniture
-import cardboardfurniture1 from '../../images/Furnitures/Cardboard/F01.jpeg';
 import cardboardfurniture2 from '../../images/Furnitures/Cardboard/F02.jpeg';
 import cardboardfurniture3 from '../../images/Furnitures/Cardboard/F03.jpg';
 import cardboardfurniture4 from '../../images/Furnitures/Cardboard/F04.jpg';
 import cardboardfurniture5 from '../../images/Furnitures/Cardboard/F05.jpg';
 
-import cardboardfurniture1t from '../../images/Furnitures/Cardboard/F01_tn.jpg';
 import cardboardfurniture2t from '../../images/Furnitures/Cardboard/F02_tn.jpg';
 import cardboardfurniture3t from '../../images/Furnitures/Cardboard/F03_tn.jpg';
 import cardboardfurniture4t from '../../images/Furnitures/Cardboard/F04_tn.jpg';
@@ -20,15 +34,21 @@ import cardboardfurniture5t from '../../images/Furnitures/Cardboard/F05_tn.jpg';
 // 1 furniture
 import realfurniture1 from '../../images/Furnitures/Wood/F11.jpeg';
 import realfurniture2 from '../../images/Furnitures/Wood/F12.jpeg';
-import realfurniture3 from '../../images/Furnitures/Wood/F13.jpeg';
+//import realfurniture3 from '../../images/Furnitures/Wood/F13.jpeg';
 import realfurniture4 from '../../images/Furnitures/Wood/F14.jpg';
 import realfurniture5 from '../../images/Furnitures/Wood/F15.jpeg';
+import realfurniture6 from '../../images/Furnitures/Wood/F16.png';
+//import realfurniture7 from '../../images/Furnitures/Wood/F17.JPEG';
+import realfurniture8 from '../../images/Furnitures/Wood/F18.JPEG';
 
 import realfurniture1t from '../../images/Furnitures/Wood/F11_tn.jpg';
 import realfurniture2t from '../../images/Furnitures/Wood/F12_tn.jpg';
-import realfurniture3t from '../../images/Furnitures/Wood/F13_tn.jpg';
+//import realfurniture3t from '../../images/Furnitures/Wood/F13_tn.jpg';
 import realfurniture4t from '../../images/Furnitures/Wood/F14_tn.jpg';
 import realfurniture5t from '../../images/Furnitures/Wood/F15_tn.jpg';
+import realfurniture6t from '../../images/Furnitures/Wood/F16_tn.jpg';
+//import realfurniture7t from '../../images/Furnitures/Wood/F17_tn.jpg';
+import realfurniture8t from '../../images/Furnitures/Wood/F18_tn.jpg';
 
 
 /* PAINTINGS */
@@ -95,7 +115,7 @@ import mandala15t from '../../images/Paintings/Mandalas/M15_tn.jpg';
 import mandala16t from '../../images/Paintings/Mandalas/M16_tn.jpg';
 import mandala17t from '../../images/Paintings/Mandalas/M17_tn.jpg';
 
-// 2 art
+// 2 art - others
 import art1 from '../../images/Paintings/Art/A01.jpg';
 import art2 from '../../images/Paintings/Art/A02.jpg';
 
@@ -106,13 +126,31 @@ export const projects = [
 	{
 		id: 1, 
 		title: 'IT',
-		photo: sample, 	
+		photo: ITbackground, 	
 		shortDescription: 'My passion encompasses programming, web design and graphic editing software API. I enjoy crafting algorithms that solve complex problems. Additionally, I design games, conduct training sessions, and organize game jams. For me, it\'s a path to continuous growth in the ever-evolving worlds of technology and creativity.', 	
 		longDescription: '',
 		list: [
 			{
 				id:1,
-				title: 'IT project',
+				title: 'Bombs Online',
+				icon: github,
+				link: 'https://github.com/HelenaMaslowska/bombs-online',
+				description: '"Bombs Online" is a 2D game developed on Linux Ubuntu using C++ and Qt Creator 6. This educational Bomberman-style game operates on a client-server model, utilizing the TCP/IP protocol and sockets. You can play the game on two or more computers within the same network. Simply provide the server\'s IP address and the port on which the game should run. After entering both values, click "Set up," set your nickname, and click "Start." When all players in the room declare that they are ready to play, the game begins.',
+				description2: 'If there are more than 4 players, multiple rooms will be created to accommodate everyone. In the game, you can move your character using the WASD keys and place bombs using the X key. At the start of the game, you have 3 hit points (HP), 1 explosion range, 1 speed, and more, but you can change these values through power-ups. You\'ll find power-ups where crates exploded. Below, there is a description of what each color of crate does. The game ends when there is only one player left alive. The game\'s source code is available on my GitHub.',
+				photos: [
+					{
+						original: bombs1,
+						thumbnail: bombs1t,
+					},
+					{
+						original: bombs2,
+						thumbnail: bombs2t,
+					},
+					{
+						original: bombs3,
+						thumbnail: bombs3t,
+					}
+				]
 			}
 		]
 	},
@@ -125,8 +163,10 @@ export const projects = [
 		list: [
 			{
 				id:1,
-				title: 'My first furniture using cardboard',
-				description: 'I crafted my first piece of furniture from cardboard, dedicating 10 days of work. It was for my purposes. Constructed from cardboard, securely fastened with glue. Used every day to store items. I was surprised how strong cardboard could be.',
+				title: 'Cardboard furniture',
+				icon: youtube,
+				link: 'https://www.youtube.com/watch?v=ZXBVxCk6UNE',
+				description: 'I crafted my first piece of furniture from cardboard, dedicating 10 days of work. It was for my purposes. Constructed from cardboard, securely fastened with glue. Used every day to store items. I was surprised how strong cardboard could be and decided to do another project.',
 				photos: [
 					{
 						original: cardboardfurniture5,
@@ -143,17 +183,15 @@ export const projects = [
 					{
 						original: cardboardfurniture2,
 						thumbnail: cardboardfurniture2t,
-					},
-					{
-						original: cardboardfurniture1,
-						thumbnail: cardboardfurniture1t,
 					}
 				]
 			},
 			{
 				id:2,
-				title: 'Real furniture',
-				description: 'I crafted a unique piece of birthday gift, dedicating 10 days of meticulous work. Constructed from wood, plastic, and metal pipes, securely fastened with screws, it boasts a comfortable foam cushion.',
+				title: 'Shoe cabinet',
+				icon: youtube,
+				link: 'https://www.youtube.com/watch?v=k_Nu23nSaIw',
+				description: 'I began this project from scratch, starting with planning, precise measurements, and detailed drawings. Using Blender, I created a 3D model that represents the individual components and the materials from which the furniture piece will be constructed. Constructed from a combination of wood, plastic, and sturdy metal pipes, it has been fastened together using screws. This furniture piece boasts a comfortable foam cushion. It\'s designed to support the weight of an individual up to 100 kilograms (220.5 pounds), making it both stylish and sturdy for anyone to sit on. With the except of wallpaper this furniture piece is crafted exclusively from eco-friendly, recycled materials',
 				photos: [
 					{
 						original: realfurniture4,
@@ -164,17 +202,20 @@ export const projects = [
 						thumbnail: realfurniture5t,
 					},
 					{
-						original: realfurniture3,
-						thumbnail: realfurniture3t,
-					},
-					{
-						original: realfurniture2,
-						thumbnail: realfurniture2t, 
-
+						original: realfurniture6,
+						thumbnail: realfurniture6t
 					},
 					{
 						original: realfurniture1,
 						thumbnail: realfurniture1t
+					},
+					{
+						original: realfurniture8,
+						thumbnail: realfurniture8t
+					},
+					{
+						original: realfurniture2,
+						thumbnail: realfurniture2t, 
 					}
 				]
 			}
