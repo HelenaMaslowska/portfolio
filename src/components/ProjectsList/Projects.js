@@ -10,7 +10,8 @@ import youtube from '../../images/Icons/youtube.png';
 /* IT */
 // IT background
 import ITbackground from '../../images/IT/IT.jpg';
-// 1 game
+
+// bombs online
 import bombs1 from '../../images/IT/BombsOnline/B01.png';
 import bombs2 from '../../images/IT/BombsOnline/B02_copy.png';
 import bombs3 from '../../images/IT/BombsOnline/B03.png';
@@ -18,6 +19,26 @@ import bombs3 from '../../images/IT/BombsOnline/B03.png';
 import bombs1t from '../../images/IT/BombsOnline/B01_tn.jpg';
 import bombs2t from '../../images/IT/BombsOnline/B02_copy_tn.jpg';
 import bombs3t from '../../images/IT/BombsOnline/B03_tn.jpg';
+
+// minecraft box
+import box1 from '../../images/IT/MinecraftBox/M01.jpg';
+import box2 from '../../images/IT/MinecraftBox/M02.jpg';
+import box3 from '../../images/IT/MinecraftBox/M03.jpg';
+import box4 from '../../images/IT/MinecraftBox/M04.jpg';
+import box5 from '../../images/IT/MinecraftBox/M05.jpg';
+import box6 from '../../images/IT/MinecraftBox/M06.jpg';
+
+import box1t from '../../images/IT/MinecraftBox/M01_tn.jpg';
+import box2t from '../../images/IT/MinecraftBox/M02_tn.jpg';
+import box3t from '../../images/IT/MinecraftBox/M03_tn.jpg';
+import box4t from '../../images/IT/MinecraftBox/M04_tn.jpg';
+import box5t from '../../images/IT/MinecraftBox/M05_tn.jpg';
+import box6t from '../../images/IT/MinecraftBox/M06_tn.jpg';
+
+// traveling salesman problem
+import traveling1 from '../../images/IT/TravelingSalesmanProblem/A01.png';
+
+import traveling1t from '../../images/IT/TravelingSalesmanProblem/A01_tn.jpg';
 
 /* FURNITURES */
 // 1 furniture
@@ -135,7 +156,7 @@ export const projects = [
 				title: 'Bombs Online',
 				icon: github,
 				link: 'https://github.com/HelenaMaslowska/bombs-online',
-				description: '"Bombs Online" is a 2D game developed on Linux Ubuntu using C++ and Qt Creator 6. This educational Bomberman-style game operates on a client-server model, utilizing the TCP/IP protocol and sockets. You can play the game on two or more computers within the same network. Simply provide the server\'s IP address and the port on which the game should run. After entering both values, click "Set up," set your nickname, and click "Start." When all players in the room declare that they are ready to play, the game begins.',
+				description: 'Bombs Online is a 2D game developed on Linux Ubuntu using C++ and Qt Creator 6. This educational Bomberman-style game operates on a client-server model, utilizing the TCP/IP protocol and sockets. You can play the game on two or more computers within the same network. Simply provide the server\'s IP address and the port on which the game should run. After entering both values, click "Set up," set your nickname, and click "Start." When all players in the room declare that they are ready to play, the game begins.',
 				description2: 'If there are more than 4 players, multiple rooms will be created to accommodate everyone. In the game, you can move your character using the WASD keys and place bombs using the X key. At the start of the game, you have 3 hit points (HP), 1 explosion range, 1 speed, and more, but you can change these values through power-ups. You\'ll find power-ups where crates exploded. Below, there is a description of what each color of crate does. The game ends when there is only one player left alive. The game\'s source code is available on my GitHub.',
 				photos: [
 					{
@@ -149,6 +170,54 @@ export const projects = [
 					{
 						original: bombs3,
 						thumbnail: bombs3t,
+					}
+				]
+			},
+			{
+				id: 2,
+				title: 'Minecraft Box',
+				icon: github,
+				link: 'https://github.com/HelenaMaslowska/Minecraft-box',
+				description: 'Minecraft box is made using Raspberry Pi Zero, Python, electronics detectors and cartoon. How it works: ',
+				description2: 'First of all you need to put your card on the right and RFID detects if your card is valid. Secondly you need to choose your minibox from 1 to 4 on your phone. Thirdly write your numbers from your phone to the box and box checks if your type it correctly. If password had been written corretly the minibox opens! The box automatically close.',
+				photos: [
+					{
+						original: box1,
+						thumbnail: box1t,
+					},
+					{
+						original: box2,
+						thumbnail: box2t,
+					},
+					{
+						original: box3,
+						thumbnail: box3t,
+					},
+					{
+						original: box4,
+						thumbnail: box4t,
+					},
+					{
+						original: box5,
+						thumbnail: box5t,
+					},
+					{
+						original: box6,
+						thumbnail: box6t,
+					}
+				]
+			},
+			{
+				id: 3,
+				title: 'Traveling salesman problem solved by genetic algorithm',
+				icon: github,
+				link: 'https://github.com/HelenaMaslowska/genetic-algorithm',
+				description: 'Algorithm tries to solve the problem and show statistics and graphical representation shown on a plot. Why try? Traveling salesman problem is hard to solve without using brute force method. Here we use a faster solution. Algorithm is placed in a link.',
+				description2: 'PMX chooses two segments and replaces them. Then, it fixes all elements which must be unique and check width of this road. The more times this algorithm is repeated, the greater the chance of getting closer to the optimal solution is. Here is a mutation which has a 7% chance to appear.',
+				photos: [
+					{
+						original: traveling1,
+						thumbnail: traveling1t,
 					}
 				]
 			}

@@ -11,6 +11,17 @@
 	display: flex;
     justify-content: center;
 
+	.WIPContent {
+		position: fixed;
+		display: flex;
+		align-self: center;
+		
+
+		.WIP {
+			width:300px;
+		}
+	}
+
 	.content {
 		height: 100%;
 		display: flex;
@@ -29,19 +40,6 @@
 			margin: 0;
 			font-size: 20px;
 		}
-	}
-
-	img {
-		position:absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-		object-fit: cover;
-		filter: brightness(0.9);
-		z-index: -1;
-		transform-style: preserve-3d;
-		overflow-x: hidden;
-		transform: translateZ(-1px) scale(2);
 	}
 
 	@media (max-width: 1000px) {
