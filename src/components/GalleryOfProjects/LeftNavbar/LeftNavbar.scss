@@ -17,6 +17,7 @@
 		padding: 20px 30px 20px 100px;
 		background: $primary;
 		transition: 0.2s;
+		border: none;
 
 		&:hover {
 			color: black;
@@ -25,5 +26,21 @@
 			transition: 0.2s;
 			cursor: pointer;
 		}
+
+		button {
+			background: none;
+			border: none;
+			color: white;
+			font-family: $font-secondary;
+			font-size: 1.2rem;
+			letter-spacing: 2px;
+			padding: 0;
+			margin: 0;
+			cursor: pointer;
+		}
+	}
+
+	@media (max-width: 1200px) {
+		display: none;
 	}
 }
