@@ -1,0 +1,29 @@
+@import '../../../styles/colors';
+@import '../../../styles/fonts';
+
+.LeftNavbar {
+	position: fixed;;
+	top: 50%;
+	transform: translate(-25%, -50%);	// center on left
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	z-index: 10;
+	
+	.navbarTopic {
+		color: white;
+		font-family: $font-secondary;
+		letter-spacing: 2px;;
+		padding: 20px 30px 20px 100px;
+		background: $primary;
+		transition: 0.2s;
+
+		&:hover {
+			color: black;
+			background: $accent;
+			transform: translate(15%, 0);
+			transition: 0.2s;
+			cursor: pointer;
+		}
+	}
+}

@@ -6,6 +6,7 @@ import ListOfProjects from './ListOfProjects'
 import WelcomeGallery from './WelcomeGallery'
 
 import { projects } from '../ProjectsList/Projects.js';
+import LeftNavbar from './LeftNavbar/LeftNavbar.js';
 
 
 export default function Gallery() {
@@ -21,6 +22,7 @@ export default function Gallery() {
 
 	return (
 		<div>
+			<LeftNavbar />
 			<WelcomeGallery />
 
 			{width > 1000 ? 
@@ -28,7 +30,7 @@ export default function Gallery() {
 					<div className="container_12 listOfProjectsContainer">
 						{/* Send topics and projects in the same list */}
 						{projects.map((topic) => ( 
-							<ListOfProjects id={topic.id} key={topic.id} topic={topic} />
+							<ListOfProjects id={topic.title} key={topic.id} topic={topic} />
 						))}
 					</div>
 				) 
@@ -36,7 +38,7 @@ export default function Gallery() {
 				(
 					<div className="listOfProjectsContainer">
 						{projects.map((topic) => ( 
-							<ListOfProjects key={topic.id} topic={topic} />
+							<ListOfProjects key={topic.title} topic={topic} />
 						))}
 					</div>
 				)
