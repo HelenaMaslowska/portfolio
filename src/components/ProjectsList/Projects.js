@@ -71,6 +71,46 @@ import realfurniture6t from '../../images/Furnitures/Wood/F16_tn.jpg';
 //import realfurniture7t from '../../images/Furnitures/Wood/F17_tn.jpg';
 import realfurniture8t from '../../images/Furnitures/Wood/F18_tn.jpg';
 
+/* MODELS */
+// models project
+import pmodel1 from '../../images/Models/Blender projects/P01.png';
+import pmodel2 from '../../images/Models/Blender projects/P02.png';
+import pmodel3 from '../../images/Models/Blender projects/P03.png';
+import pmodel4 from '../../images/Models/Blender projects/P04.png';
+import pmodel5 from '../../images/Models/Blender projects/P05.png';
+import pmodel6 from '../../images/Models/Blender projects/P06.png';
+import pmodel7 from '../../images/Models/Blender projects/P07.png';
+import pmodel8 from '../../images/Models/Blender projects/P08.png';
+import pmodel9 from '../../images/Models/Blender projects/P09.png';
+import pmodel10 from '../../images/Models/Blender projects/P10.JPEG';
+import pmodel11 from '../../images/Models/Blender projects/P11.png';
+import pmodel12 from '../../images/Models/Blender projects/P12.JPEG';
+import pmodel13 from '../../images/Models/Blender projects/P13.JPEG';
+
+// models
+import model1 from '../../images/Models/Blender/B01.png';
+import model2 from '../../images/Models/Blender/B02.png';
+import model3 from '../../images/Models/Blender/B03.png';
+import model4 from '../../images/Models/Blender/B04.png';
+import model5 from '../../images/Models/Blender/B05.png';
+import model6 from '../../images/Models/Blender/B06.png';
+import model7 from '../../images/Models/Blender/B07.png';
+import model8 from '../../images/Models/Blender/B08.png';
+import model9 from '../../images/Models/Blender/B09.png';
+import model10 from '../../images/Models/Blender/B10.PNG';
+import model11 from '../../images/Models/Blender/B11.JPEG';
+
+import model1t from '../../images/Models/Blender/B01_tn.jpg';
+import model2t from '../../images/Models/Blender/B02_tn.jpg';
+import model3t from '../../images/Models/Blender/B03_tn.jpg';
+import model4t from '../../images/Models/Blender/B04_tn.jpg';
+import model5t from '../../images/Models/Blender/B05_tn.jpg';
+import model6t from '../../images/Models/Blender/B06_tn.jpg';
+import model7t from '../../images/Models/Blender/B07_tn.jpg';
+import model8t from '../../images/Models/Blender/B08_tn.jpg';
+import model9t from '../../images/Models/Blender/B09_tn.jpg';
+import model10t from '../../images/Models/Blender/B10_tn.jpg';
+import model11t from '../../images/Models/Blender/B11_tn.jpg';
 
 /* PAINTINGS */
 // 3 birds
@@ -298,8 +338,115 @@ export const projects = [
 		longDescription: '',
 		list: [
 			{
-				id:1,
-				title: 'Models project',
+				id: 1,
+				title: 'Blender projects',
+				description: '',
+				photos: [
+					{
+						original: pmodel1,
+						thumbnail: pmodel1,
+					},
+					{
+						original: pmodel2,
+						thumbnail: pmodel2,
+					},
+					{
+						original: pmodel3,
+						thumbnail: pmodel3,
+					},
+					{
+						original: pmodel4,
+						thumbnail: pmodel4,
+					},
+					{
+						original: pmodel5,
+						thumbnail: pmodel5,
+					},
+					{
+						original: pmodel6,
+						thumbnail: pmodel6,
+					},
+					{
+						original: pmodel7,
+						thumbnail: pmodel7,
+					},
+					{
+						original: pmodel8,
+						thumbnail: pmodel8,
+					},
+					{
+						original: pmodel9,
+						thumbnail: pmodel9,
+					},
+					{
+						original: pmodel10,
+						thumbnail: pmodel10,
+					},
+					{
+						original: pmodel11,
+						thumbnail: pmodel11,
+					},
+					{
+						original: pmodel12,
+						thumbnail: pmodel12,
+					},
+					{
+						original: pmodel13,
+						thumbnail: pmodel13,
+					}
+				]
+
+			},
+			{
+				id:2,
+				title: 'Models',
+				description: '',
+				photos: [
+					{
+						original: model1,
+						thumbnail: model1t,
+					},
+					{
+						original: model2,
+						thumbnail: model2t,
+					},
+					{
+						original: model3,
+						thumbnail: model3t,
+					},
+					{
+						original: model4,
+						thumbnail: model4t,
+					},
+					{
+						original: model5,
+						thumbnail: model5t,
+					},
+					{
+						original: model6,
+						thumbnail: model6t,
+					},
+					{
+						original: model7,
+						thumbnail: model7t,
+					},
+					{
+						original: model8,
+						thumbnail: model8t,
+					},
+					{
+						original: model9,
+						thumbnail: model9t,
+					},
+					{
+						original: model10,
+						thumbnail: model10t,
+					},
+					{
+						original: model11,
+						thumbnail: model11t,
+					}
+				]
 			}
 		]
 	},
