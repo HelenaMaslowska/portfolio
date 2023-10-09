@@ -2,6 +2,7 @@ import sample from '../../images/cardboard.jpg';
 // thumbnails: http://makethumbnails.com/#options
 // heic to jpg: https://convertio.co/pl/
 // compress jpg: https://www.iloveimg.com/compress-image
+// resize: https://redketchup.io/bulk-image-resizer
 
 /* ICONS */
 import github from '../../images/Icons/github.png';
@@ -39,6 +40,46 @@ import box6t from '../../images/IT/MinecraftBox/M06_tn.jpg';
 import traveling1 from '../../images/IT/TravelingSalesmanProblem/A01.png';
 
 import traveling1t from '../../images/IT/TravelingSalesmanProblem/A01_tn.jpg';
+
+/* GAMES */
+// Games background
+import gamesbackground from '../../images/Games/game.png';
+// Minesweeper
+import minesweeper1 from '../../images/Games/Minesweeper/M01.png';
+import minesweeper2 from '../../images/Games/Minesweeper/M02.png';
+import minesweeper3 from '../../images/Games/Minesweeper/M03.png';
+import minesweeper4 from '../../images/Games/Minesweeper/M04.png';
+import minesweeper5 from '../../images/Games/Minesweeper/M05.png';
+
+import minesweeper1t from '../../images/Games/Minesweeper/M01_tn.jpg';
+import minesweeper2t from '../../images/Games/Minesweeper/M02_tn.jpg';
+import minesweeper3t from '../../images/Games/Minesweeper/M03_tn.jpg';
+import minesweeper4t from '../../images/Games/Minesweeper/M04_tn.jpg';
+import minesweeper5t from '../../images/Games/Minesweeper/M05_tn.jpg';
+
+// Defend the tortoise
+import tortoise1 from '../../images/Games/Defend The Tortoise/T01.png';
+import tortoise2 from '../../images/Games/Defend The Tortoise/T02.png';
+import tortoise3 from '../../images/Games/Defend The Tortoise/T03.png';
+import tortoise4 from '../../images/Games/Defend The Tortoise/T04.png';
+
+import tortoise1t from '../../images/Games/Defend The Tortoise/T01_tn.jpg';
+import tortoise2t from '../../images/Games/Defend The Tortoise/T02_tn.jpg';
+import tortoise3t from '../../images/Games/Defend The Tortoise/T03_tn.jpg';
+import tortoise4t from '../../images/Games/Defend The Tortoise/T04_tn.jpg';
+
+// Ships
+import ships1 from '../../images/Games/Ships/S01.png';
+import ships2 from '../../images/Games/Ships/S02.png';
+import ships3 from '../../images/Games/Ships/S03.png';
+import ships4 from '../../images/Games/Ships/S04.png';
+import ships5 from '../../images/Games/Ships/S05.png';
+
+import ships1t from '../../images/Games/Ships/S01_tn.jpg';
+import ships2t from '../../images/Games/Ships/S02_tn.jpg';
+import ships3t from '../../images/Games/Ships/S03_tn.jpg';
+import ships4t from '../../images/Games/Ships/S04_tn.jpg';
+import ships5t from '../../images/Games/Ships/S05_tn.jpg';
 
 /* FURNITURES */
 // 1 furniture
@@ -185,7 +226,7 @@ import art2t from '../../images/Paintings/Art/A02_tn.jpg';
 
 export const projects = [
 	{
-		id: 1, 
+		id: 0, 
 		title: 'IT',
 		photo: ITbackground, 	
 		shortDescription: 'My passion encompasses programming, web design and graphic editing software API. I enjoy crafting algorithms that solve complex problems. Additionally, I design games, conduct training sessions, and organize game jams. For me, it\'s a path to continuous growth in the ever-evolving worlds of technology and creativity.', 	
@@ -262,6 +303,112 @@ export const projects = [
 				]
 			}
 		]
+	},
+	{
+		id: 1,
+		title: 'Games',
+		photo: gamesbackground,
+		shortDescription: 'I create games using Unity and C#. My projects include 2D and 3D games, as well as VR experiences. I also enjoy participating in game jams, where I can collaborate with other developers and learn from their expertise. It\'s a great way to expand my skillset and explore new ideas. I also enjoy organizing game jams, which are a great way to bring people together and foster creativity.', 	
+		longDescription: '',
+		list: [
+			{
+				id: 1,
+				title: 'Minesweeper',
+				icon: github,
+				link: '',
+				description: '',
+				photos: [
+					{
+						original: minesweeper1,
+						thumbnail: minesweeper1t,
+					},
+					{
+						original: minesweeper2,
+						thumbnail: minesweeper2t,
+					},
+					{
+						original: minesweeper3,
+						thumbnail: minesweeper3t,
+					},
+					{
+						original: minesweeper4,
+						thumbnail: minesweeper4t,
+					},
+					{
+						original: minesweeper5,
+						thumbnail: minesweeper5t,
+					}
+				]
+			},
+			{
+				id: 2,
+				title: 'Defend the Tortoise',
+				icon: github,
+				link: '',
+				description: '',
+				photos: [
+					{
+						original: tortoise1,
+						thumbnail: tortoise1t,
+					},
+					{
+						original: tortoise2,
+						thumbnail: tortoise2t,
+					},
+					{
+						original: tortoise3,
+						thumbnail: tortoise3t,
+					},
+					{
+						original: tortoise4,
+						thumbnail: tortoise4t,
+					}
+				]
+			},
+			{
+				id: 3,
+				title: 'Ships',
+				icon: github,
+				link: '',
+				description: '',
+				photos: [
+					{
+						original: ships1,
+						thumbnail: ships1t,
+					},
+					{
+						original: ships2,
+						thumbnail: ships2t,
+					},
+					{
+						original: ships3,
+						thumbnail: ships3t,
+					},
+					{
+						original: ships4,
+						thumbnail: ships4t,
+					},
+					{
+						original: ships5,
+						thumbnail: ships5t,
+					}
+				]
+			},
+			{
+				id: 4,
+				title: '',
+				icon: github,
+				link: '',
+				description: '',
+				photos: [
+					{
+						original: bombs1,
+						thumbnail: bombs1t,
+					}
+				]
+			},
+		]
+
 	},
 	{
 		id: 2,
@@ -395,7 +542,6 @@ export const projects = [
 						thumbnail: pmodel13,
 					}
 				]
-
 			},
 			{
 				id:2,
