@@ -7,6 +7,7 @@ import sample from '../../images/cardboard.jpg';
 /* ICONS */
 import github from '../../images/Icons/github.png';
 import youtube from '../../images/Icons/youtube.png';
+import website from '../../images/Icons/website.png';
 
 /* IT */
 // IT background
@@ -49,13 +50,11 @@ import minesweeper1 from '../../images/Games/Minesweeper/M01.png';
 import minesweeper2 from '../../images/Games/Minesweeper/M02.png';
 import minesweeper3 from '../../images/Games/Minesweeper/M03.png';
 import minesweeper4 from '../../images/Games/Minesweeper/M04.png';
-import minesweeper5 from '../../images/Games/Minesweeper/M05.png';
 
 import minesweeper1t from '../../images/Games/Minesweeper/M01_tn.jpg';
 import minesweeper2t from '../../images/Games/Minesweeper/M02_tn.jpg';
 import minesweeper3t from '../../images/Games/Minesweeper/M03_tn.jpg';
 import minesweeper4t from '../../images/Games/Minesweeper/M04_tn.jpg';
-import minesweeper5t from '../../images/Games/Minesweeper/M05_tn.jpg';
 
 // Defend the tortoise
 import tortoise1 from '../../images/Games/Defend The Tortoise/T01.png';
@@ -80,6 +79,33 @@ import ships2t from '../../images/Games/Ships/S02_tn.jpg';
 import ships3t from '../../images/Games/Ships/S03_tn.jpg';
 import ships4t from '../../images/Games/Ships/S04_tn.jpg';
 import ships5t from '../../images/Games/Ships/S05_tn.jpg';
+
+// Game of life
+import life1 from '../../images/Games/Game of Life/G01.png';
+import life2 from '../../images/Games/Game of Life/G02.png';
+import life3 from '../../images/Games/Game of Life/G03.png';
+import life4 from '../../images/Games/Game of Life/G04.png';
+
+import life1t from '../../images/Games/Game of Life/G01_tn.jpg';
+import life2t from '../../images/Games/Game of Life/G02_tn.jpg';
+import life3t from '../../images/Games/Game of Life/G03_tn.jpg';
+import life4t from '../../images/Games/Game of Life/G04_tn.jpg';
+
+// Suppliers
+import suppliers1 from '../../images/Games/Suppliers/S01.png';
+import suppliers2 from '../../images/Games/Suppliers/S02.png';
+import suppliers3 from '../../images/Games/Suppliers/S03.png';
+import suppliers4 from '../../images/Games/Suppliers/S04.png';
+
+import suppliers1t from '../../images/Games/Suppliers/S01_tn.jpg';
+import suppliers2t from '../../images/Games/Suppliers/S02_tn.jpg';
+import suppliers3t from '../../images/Games/Suppliers/S03_tn.jpg';
+import suppliers4t from '../../images/Games/Suppliers/S04_tn.jpg';
+
+// Penguin
+import penguin1 from '../../images/Games/Penguin/P01.png';
+
+import penguin1t from '../../images/Games/Penguin/P01_tn.jpg';
 
 /* FURNITURES */
 // 1 furniture
@@ -122,11 +148,24 @@ import pmodel5 from '../../images/Models/Blender projects/P05.png';
 import pmodel6 from '../../images/Models/Blender projects/P06.png';
 import pmodel7 from '../../images/Models/Blender projects/P07.png';
 import pmodel8 from '../../images/Models/Blender projects/P08.png';
-import pmodel9 from '../../images/Models/Blender projects/P09.png';
-import pmodel10 from '../../images/Models/Blender projects/P10.JPEG';
-import pmodel11 from '../../images/Models/Blender projects/P11.png';
-import pmodel12 from '../../images/Models/Blender projects/P12.JPEG';
-import pmodel13 from '../../images/Models/Blender projects/P13.JPEG';
+
+import pmodel1t from '../../images/Models/Blender projects/P01_tn.jpg';
+import pmodel2t from '../../images/Models/Blender projects/P02_tn.jpg';
+import pmodel3t from '../../images/Models/Blender projects/P03_tn.jpg';
+import pmodel4t from '../../images/Models/Blender projects/P04_tn.jpg';
+import pmodel5t from '../../images/Models/Blender projects/P05_tn.jpg';
+import pmodel6t from '../../images/Models/Blender projects/P06_tn.jpg';
+import pmodel7t from '../../images/Models/Blender projects/P07_tn.jpg';
+import pmodel8t from '../../images/Models/Blender projects/P08_tn.jpg';
+
+// shader node graph
+import shader1 from '../../images/Models/Shader node graph/P01.png';
+import shader2 from '../../images/Models/Shader node graph/P02.png';
+import shader3 from '../../images/Models/Shader node graph/P03.png';
+
+import shader1t from '../../images/Models/Shader node graph/P01_tn.jpg';
+import shader2t from '../../images/Models/Shader node graph/P02_tn.jpg';
+import shader3t from '../../images/Models/Shader node graph/P03_tn.jpg';
 
 // models
 import model1 from '../../images/Models/Blender/B01.png';
@@ -138,8 +177,7 @@ import model6 from '../../images/Models/Blender/B06.png';
 import model7 from '../../images/Models/Blender/B07.png';
 import model8 from '../../images/Models/Blender/B08.png';
 import model9 from '../../images/Models/Blender/B09.png';
-import model10 from '../../images/Models/Blender/B10.PNG';
-import model11 from '../../images/Models/Blender/B11.JPEG';
+import model10 from '../../images/Models/Blender/B10.jpg';
 
 import model1t from '../../images/Models/Blender/B01_tn.jpg';
 import model2t from '../../images/Models/Blender/B02_tn.jpg';
@@ -151,7 +189,6 @@ import model7t from '../../images/Models/Blender/B07_tn.jpg';
 import model8t from '../../images/Models/Blender/B08_tn.jpg';
 import model9t from '../../images/Models/Blender/B09_tn.jpg';
 import model10t from '../../images/Models/Blender/B10_tn.jpg';
-import model11t from '../../images/Models/Blender/B11_tn.jpg';
 
 /* PAINTINGS */
 // 3 birds
@@ -312,35 +349,6 @@ export const projects = [
 		longDescription: '',
 		list: [
 			{
-				id: 1,
-				title: 'Minesweeper',
-				icon: github,
-				link: '',
-				description: '',
-				photos: [
-					{
-						original: minesweeper1,
-						thumbnail: minesweeper1t,
-					},
-					{
-						original: minesweeper2,
-						thumbnail: minesweeper2t,
-					},
-					{
-						original: minesweeper3,
-						thumbnail: minesweeper3t,
-					},
-					{
-						original: minesweeper4,
-						thumbnail: minesweeper4t,
-					},
-					{
-						original: minesweeper5,
-						thumbnail: minesweeper5t,
-					}
-				]
-			},
-			{
 				id: 2,
 				title: 'Defend the Tortoise',
 				icon: github,
@@ -395,18 +403,90 @@ export const projects = [
 				]
 			},
 			{
-				id: 4,
-				title: '',
+				id: 1,
+				title: 'Minesweeper',
 				icon: github,
 				link: '',
 				description: '',
 				photos: [
 					{
-						original: bombs1,
-						thumbnail: bombs1t,
+						original: minesweeper1,
+						thumbnail: minesweeper1t,
+					},
+					{
+						original: minesweeper2,
+						thumbnail: minesweeper2t,
+					},
+					{
+						original: minesweeper3,
+						thumbnail: minesweeper3t,
+					},
+					{
+						original: minesweeper4,
+						thumbnail: minesweeper4t,
 					}
 				]
 			},
+			{
+				id: 4,
+				title: 'Game of life',
+				icon: github,
+				link: '',
+				description: '',
+				photos: [
+					{
+						original: life1,
+						thumbnail: life1t,
+					},
+					{
+						original: life2,
+						thumbnail: life2t,
+					},
+					{
+						original: life3,
+						thumbnail: life3t,
+					},
+					{
+						original: life4,
+						thumbnail: life4t,
+					}
+				]
+			},
+			{
+				id: 5,
+				title: 'Supplier',
+				icon: website,
+				link: 'https://gamejolt.com/games/Supplier/732455?sort=new',
+				description: '',
+				photos: [
+					{
+						original: suppliers1,
+						thumbnail: suppliers1t,
+					},
+					{
+						original: suppliers2,
+						thumbnail: suppliers2t,
+					},
+					{
+						original: suppliers3,
+						thumbnail: suppliers3t,
+					},
+					{
+						original: suppliers4,
+						thumbnail: suppliers4t,
+					}
+				]
+			},
+			{
+				id: 6,
+				title: 'Escape from shark',
+				photos: [
+					{
+						original: penguin1,
+						thumbnail: penguin1t,
+					}
+				]
+			}
 		]
 
 	},
@@ -485,61 +565,62 @@ export const projects = [
 		longDescription: '',
 		list: [
 			{
+				id: 0,
+				title: 'Shader node graph',
+				description: '',
+				photos: [
+					{
+						original: shader1,
+						thumbnail: shader1t,
+					},
+					{
+						original: shader2,
+						thumbnail: shader2t,
+					},
+					{
+						original: shader3,
+						thumbnail: shader3t,
+					}
+				]
+			},
+			{
 				id: 1,
 				title: 'Blender projects',
+				icon: website,
+				link: 'https://assetstore.unity.com/packages/3d/props/guns/mexican-gun-214062',
 				description: '',
 				photos: [
 					{
 						original: pmodel1,
-						thumbnail: pmodel1,
+						thumbnail: pmodel1t,
 					},
 					{
 						original: pmodel2,
-						thumbnail: pmodel2,
+						thumbnail: pmodel2t,
 					},
 					{
 						original: pmodel3,
-						thumbnail: pmodel3,
+						thumbnail: pmodel3t,
 					},
 					{
 						original: pmodel4,
-						thumbnail: pmodel4,
+						thumbnail: pmodel4t,
 					},
 					{
 						original: pmodel5,
-						thumbnail: pmodel5,
+						thumbnail: pmodel5t,
 					},
 					{
 						original: pmodel6,
-						thumbnail: pmodel6,
+						thumbnail: pmodel6t,
 					},
 					{
 						original: pmodel7,
-						thumbnail: pmodel7,
+						thumbnail: pmodel7t,
 					},
 					{
 						original: pmodel8,
-						thumbnail: pmodel8,
-					},
-					{
-						original: pmodel9,
-						thumbnail: pmodel9,
-					},
-					{
-						original: pmodel10,
-						thumbnail: pmodel10,
-					},
-					{
-						original: pmodel11,
-						thumbnail: pmodel11,
-					},
-					{
-						original: pmodel12,
-						thumbnail: pmodel12,
-					},
-					{
-						original: pmodel13,
-						thumbnail: pmodel13,
+						thumbnail: pmodel8t,
 					}
 				]
 			},
@@ -587,10 +668,6 @@ export const projects = [
 					{
 						original: model10,
 						thumbnail: model10t,
-					},
-					{
-						original: model11,
-						thumbnail: model11t,
 					}
 				]
 			}
