@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.fea53541.css",
-    "main.js": "/portfolio/static/js/main.cfc47056.js",
+    "main.css": "/portfolio/static/css/main.c8c1ed69.css",
+    "main.js": "/portfolio/static/js/main.848591bc.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/P04.png": "/portfolio/static/media/P04.2c72d866287a785596a3.png",
     "static/media/P03.png": "/portfolio/static/media/P03.e439f715465d7e98c827.png",
@@ -14,9 +14,7 @@
     "static/media/B03.png": "/portfolio/static/media/B03.ab147123ba971701d995.png",
     "static/media/cardboard.jpg": "/portfolio/static/media/cardboard.c74560f2316cc9090b56.jpg",
     "static/media/P07.png": "/portfolio/static/media/P07.dcbb810b667d0c02887f.png",
-    "static/media/Bg_contact.png": "/portfolio/static/media/Bg_contact.038c82d2038f58b2e04b.png",
     "static/media/T01.png": "/portfolio/static/media/T01.ee09ad74dcf286fe1599.png",
-    "static/media/Glow.png": "/portfolio/static/media/Glow.c696a90ac92b4c98e982.png",
     "static/media/P02.png": "/portfolio/static/media/P02.2e84366a5715f2d33ec9.png",
     "static/media/S01.png": "/portfolio/static/media/S01.f433cfc964937387e11b.png",
     "static/media/S05.png": "/portfolio/static/media/S05.e6c099a23499428514a3.png",
@@ -37,7 +35,8 @@
     "static/media/B01.png": "/portfolio/static/media/B01.dd18ff0f155fbdb70fe7.png",
     "static/media/L05.jpg": "/portfolio/static/media/L05.252a2613c0b02a93ce37.jpg",
     "static/media/S03.png": "/portfolio/static/media/S03.678519ebef01846bde5d.png",
-    "static/media/Projects_bg.png": "/portfolio/static/media/Projects_bg.4c93417a78016502a14f.png",
+    "static/media/Contact_bg.png": "/portfolio/static/media/Contact_bg.491cda2108146bc7d938.png",
+    "static/media/Projects_bg.png": "/portfolio/static/media/Projects_bg.7db9467926302d087d9f.png",
     "static/media/M03.jpg": "/portfolio/static/media/M03.3c3cdd849ebf9697fc42.jpg",
     "static/media/M02.jpg": "/portfolio/static/media/M02.b6cc01845043f199db3b.jpg",
     "static/media/B08.png": "/portfolio/static/media/B08.89620631fb5b744a5023.png",
@@ -69,6 +68,7 @@
     "static/media/M13.jpg": "/portfolio/static/media/M13.8a1746fab92cb3990086.jpg",
     "static/media/B01.jpg": "/portfolio/static/media/B01.0a7ffbf78f2a5cc45e3f.jpg",
     "static/media/G03.png": "/portfolio/static/media/G03.4d0d80e8c44ce0c631c5.png",
+    "static/media/Glow.png": "/portfolio/static/media/Glow.48e749ec4f7c8adb5920.png",
     "static/media/B02.jpg": "/portfolio/static/media/B02.4cbe1e0eda6b27958292.jpg",
     "static/media/M17.jpg": "/portfolio/static/media/M17.04bf29c671fe795730d5.jpg",
     "static/media/M16.jpg": "/portfolio/static/media/M16.3d24e36f86ff6abd340d.jpg",
@@ -108,18 +108,18 @@
     "static/media/mountain2_phone.png": "/portfolio/static/media/mountain2_phone.e798ec41d5aa1a087ac4.png",
     "static/media/P01_tn.jpg": "/portfolio/static/media/P01_tn.c7257e40302f989415c2.jpg",
     "static/media/F18_tn.jpg": "/portfolio/static/media/F18_tn.5c29e23854e8c1d54c17.jpg",
-    "static/media/bg_scroll.png": "/portfolio/static/media/bg_scroll.99896af5b8f57df5bd4e.png",
+    "static/media/bg_scroll.png": "/portfolio/static/media/bg_scroll.f53000c6a5cb9b9c562a.png",
     "static/media/website.png": "/portfolio/static/media/website.ddea4908eefd4d5c8d9b.png",
     "static/media/A01_tn.jpg": "/portfolio/static/media/A01_tn.a700b538f4cd12349f9a.jpg",
     "static/media/M05_tn.jpg": "/portfolio/static/media/M05_tn.49b34a756303c5ffc272.jpg",
     "static/media/F15_tn.jpg": "/portfolio/static/media/F15_tn.84a5551a9d5da7d085f6.jpg",
     "index.html": "/portfolio/index.html",
-    "main.fea53541.css.map": "/portfolio/static/css/main.fea53541.css.map",
-    "main.cfc47056.js.map": "/portfolio/static/js/main.cfc47056.js.map",
+    "main.c8c1ed69.css.map": "/portfolio/static/css/main.c8c1ed69.css.map",
+    "main.848591bc.js.map": "/portfolio/static/js/main.848591bc.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fea53541.css",
-    "static/js/main.cfc47056.js"
+    "static/css/main.c8c1ed69.css",
+    "static/js/main.848591bc.js"
   ]
 }
