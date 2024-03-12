@@ -1,5 +1,9 @@
 @import '~react-image-gallery/styles/scss/image-gallery.scss';
 
+.gallery {
+    background: linear-gradient(180deg, #ffffff 0%, #eab0a3 100%);
+}
+
 .listOfProjectsContainer {
     display: flex;
     flex-direction: column;

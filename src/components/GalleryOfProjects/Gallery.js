@@ -36,7 +36,7 @@ export default function Gallery() {
             : 'listOfProjectsContainer'
 
     return (
-        <div>
+        <div className="gallery">
             <LeftNavbar />
             <WelcomeGallery />
 

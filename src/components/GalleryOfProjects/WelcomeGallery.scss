@@ -1,64 +1,64 @@
 @import '../../styles/fonts';
 
 .welcomeGallery {
-	color: white;
-	height: 100vh;
-	overflow-x: hidden;
-	perspective: 2px;
-	background: url('../../images/Bg_vertical.png') center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	display: flex;
+    color: black;
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 2px;
+    background: url('../../images/Website_features/Projects/Projects_bg.png')
+        center center no-repeat; // url('../../images/Bg_vertical.png')
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
     justify-content: center;
 
-	.WIPContent {
-		position: fixed;
-		display: flex;
-		align-self: center;
-		
+    .WIPContent {
+        position: fixed;
+        display: flex;
+        align-self: center;
 
-		.WIP {
-			width:300px;
-		}
-	}
+        .WIP {
+            width: 300px;
+        }
+    }
 
-	.content {
-		height: 100%;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-		align-content: flex-start;
+    .content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
 
-		h1 {
-			font-size: clamp(48px, 5vw, 96px);
-			font-family: $font-primary;
-			font-weight: bold;
-		}
-	
-		p {
-			margin: 0;
-			font-size: 20px;
-		}
-	}
+        h1 {
+            font-size: clamp(48px, 5vw, 96px);
+            font-family: $font-primary;
+            font-weight: bold;
+        }
 
-	@media (max-width: 1000px) {
-		overflow-x: hidden;
-		background-size: auto 100%; // useless i think
-		
-		.content {
-			align-content: center;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			padding: 0;
-			width: 100%;
-			gap: 3vh;
-			text-align: center;
+        p {
+            margin: 0;
+            font-size: 20px;
+        }
+    }
 
-			p {
-				font-size: clamp(16px, 2vw, 22px);
-			}
-		}
-	}
+    @media (max-width: 1000px) {
+        overflow-x: hidden;
+        background-size: auto 100%; // useless i think
+
+        .content {
+            align-content: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            width: 100%;
+            gap: 3vh;
+            text-align: center;
+
+            p {
+                font-size: clamp(16px, 2vw, 22px);
+            }
+        }
+    }
 }
