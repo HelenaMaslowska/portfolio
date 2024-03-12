@@ -19,3 +19,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background-image: url('./images/Website_features/Hero/bg_scroll.png');
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #fcff62;
+	box-shadow: 0em 0em 1em rgba(243, 241, 111, 0.863);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #8527bb; 
+	background-image: url('./images/Website_features/Hero/scrollbar.png');
+}

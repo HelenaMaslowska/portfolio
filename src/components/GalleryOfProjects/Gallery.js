@@ -1,48 +1,54 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'
 import './Gallery.scss'
 
 import ListOfProjects from './ListOfProjects'
 import WelcomeGallery from './WelcomeGallery'
 
-import { projects } from '../ProjectsList/Projects.js';
-import LeftNavbar from './LeftNavbar/LeftNavbar.js';
-
+import { projects } from '../ProjectsList/Projects.js'
+import LeftNavbar from './LeftNavbar/LeftNavbar.js'
+import { useParams } from 'react-router-dom'
 
 export default function Gallery() {
-	const [width, setWidth] = useState(window.innerWidth);
+    const [width, setWidth] = useState(window.innerWidth)
 
-	useEffect(() => {
-		function handleResize() {
-			setWidth(window.innerWidth);
-		}
-		window.addEventListener("resize", handleResize);
-		return () => window.removeEventListener("resize", handleResize);
-	}, [width]);
+    //const {id} = useParams()
 
-	return (
-		<div>
-			<LeftNavbar />
-			<WelcomeGallery />
+    const to = window.location.href.split('#')[1]
 
-			{width > 1000 ? 
-				(
-					<div className="container_12 listOfProjectsContainer">
-						{/* Send topics and projects in the same list */}
-						{projects.map((topic) => ( 
-							<ListOfProjects id={topic.title} key={topic.id} topic={topic} />
-						))}
-					</div>
-				) 
-			: 
-				(
-					<div className="listOfProjectsContainer">
-						{projects.map((topic) => ( 
-							<ListOfProjects key={topic.title} topic={topic} />
-						))}
-					</div>
-				)
-			}
-		</div>
-	)
+    useEffect(() => {
+        function handleResize() {
+            setWidth(window.innerWidth)
+        }
+        window.addEventListener('resize', handleResize)
+        return () => window.removeEventListener('resize', handleResize)
+    }, [width])
+
+    useEffect(() => {
+        if (to !== undefined) {
+            document.querySelector(`#${to}`).scrollIntoView()
+        }
+    }, [])
+
+    const classItem =
+        width > 768
+            ? 'listOfProjectsContainer container_12'
+            : 'listOfProjectsContainer'
+
+    return (
+        <div>
+            <LeftNavbar />
+            <WelcomeGallery />
+
+            <div className={classItem}>
+                {projects.map((topic) => (
+                    <ListOfProjects
+                        id={topic.title}
+                        key={topic.id}
+                        topic={topic}
+                    />
+                ))}
+            </div>
+        </div>
+    )
 }

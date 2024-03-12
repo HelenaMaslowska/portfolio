@@ -1,14 +1,17 @@
 import React from 'react'
-import './Home.scss';
+import './Home.scss'
 
-import WelcomeLayout from './WelcomeLayout';
-import ListOfTopics from './ListOfTopics';
+import Hero from './Hero'
+
+import separator from '../../images/Website_features/Hero/Separator.png'
+import TopicList from './TopicList'
 
 export default function Home() {
-	return (
-	<div>
-		<WelcomeLayout />
-		<ListOfTopics />
-	</div>
-	)
+    return (
+        <div className="homeComponent">
+            <Hero />
+            <img src={separator} className="separator" />
+            <TopicList />
+        </div>
+    )
 }

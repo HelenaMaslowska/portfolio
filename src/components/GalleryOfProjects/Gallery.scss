@@ -1,7 +1,14 @@
-@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import '~react-image-gallery/styles/scss/image-gallery.scss';
 
 .listOfProjectsContainer {
-	display: flex;
-	flex-direction: column;
-	gap: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: unset;
+    width: 960px;
 }
