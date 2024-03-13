@@ -1,114 +1,125 @@
 @import '../../styles/colors';
 @import '../../styles/fonts';
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
 .contactPage {
-	background: url('../../images/Bg_contact.png') center center no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	color: $secondary;
+    background: url('../../images/Website_features/Contact/Contact_bg.png')
+        center no-repeat; //url('../../images/Bg_contact.png')
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
 
-	.content {
-		height: 100vh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+    .content {
+        background: #0800249f;
+        padding: 0 60px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
-		@media (max-width: 1000px) {
-			padding: 100px 20px;
-		}
-	}
+        @media (max-width: 768px) {
+            padding: 80px 20px 0;
+        }
+    }
 
-	h1 {
-		font-size: clamp(48px, 5vw, 96px);
-		color: $accent;
-	}
+    h1 {
+        font-size: clamp(48px, 3vw, 80px);
+        color: #c164ff;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 800;
+    }
 
-	h2 {
-		font-family: $font-secondary;
-		font-weight: normal;
-		font-size: clamp(18px, 2vw, 24px);
-		color: $secondary;
+    h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: clamp(16px, 2vw, 18px);
+        color: $secondary;
 
-		@media (max-width: 768px) {
-			margin: 0;
-		}
-	}
+        @media (max-width: 768px) {
+            margin: 0;
+        }
+    }
 
-	form {
-		display: flex;
-		flex-direction: column;
-		align-items: stretch;
-		gap: 12px;
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
 
-		label {
-			font-size: clamp(18px, 2vw, 24px);
-			color: $secondary;
-			font-style: normal;
-			font-weight: 400;
-			font-family: $font-tertiary;
-			letter-spacing: 4px;
-		}
+        label {
+            font-size: clamp(16px, 2vw, 18px);
+            color: $secondary;
+            font-style: normal;
+            font-weight: 400;
+            font-family: 'Montserrat', sans-serif;
+            letter-spacing: 2px;
+        }
 
-		input, textarea {
-			border: 3px solid #F7E6C4;
-			border-radius: 12px;
-			background: none;
-			height: 48px;
-			font-size: 18px;
-			padding: 5px 20px;
-			margin-bottom: 20px;
-			color: white;
+        input,
+        textarea {
+            border: 1px solid #f7e6c4;
+            border-radius: 12px;
+            background: none;
+            height: 48px;
+            font-size: 18px;
+            padding: 5px 20px;
+            margin-bottom: 20px;
+            color: white;
 
-			&:focus {
-				background: $primary;			color: white;
-			}
-		}
+            &:focus {
+                background: $primary;
+                color: white;
+            }
+        }
 
-		textarea {
-			padding-top: 20px;
-			resize: vertical;
-			height: 100px;
-		}
+        textarea {
+            padding-top: 20px;
+            resize: vertical;
+            height: 100px;
+        }
 
-		.buttons {
-			padding-top: 20px;
-			display: flex;
-			height: 70px;
-			> input {
-				height: 100%;
-				color: white;
-				margin-bottom: 0;
-				display: flex;
-				justify-content: center;
-			}
-			
-			& >input:hover {
-				background: $tetriary;
-				cursor: pointer;
-				color: $primary;
-			}
+        .buttons {
+            padding-top: 20px;
+            display: flex;
+            height: 70px;
+            > input {
+                height: 100%;
+                color: white;
+                margin-bottom: 0;
+                display: flex;
+                justify-content: center;
+            }
 
-			@media (max-width: 1000px) {
-				gap: 10px;
-				justify-content: center;
+            & > input:hover {
+                background: $tetriary;
+                cursor: pointer;
+                color: $primary;
+            }
 
-				> input {
-					padding: 20px 30px;
-				}
-			}
-		}
-		input::placeholder, textarea::placeholder {
-			color: $secondary;
-			font-family: $font-tertiary;
-		}
+            @media (max-width: 1000px) {
+                gap: 10px;
+                justify-content: center;
 
-		/*Change background and text in autofill textbox*/
-		input:-webkit-autofill,
-		input:-webkit-autofill:hover, 
-		input:-webkit-autofill:focus, 
-		input:-webkit-autofill:active{
-			-webkit-box-shadow: 0 0 0 30px $primary inset !important;
-			-webkit-text-fill-color: $accent !important;
-		}
-	}
+                > input {
+                    padding: 20px 30px;
+                }
+            }
+        }
+        input::placeholder,
+        textarea::placeholder {
+            color: $secondary;
+            font-family: $font-tertiary;
+        }
+
+        /*Change background and text in autofill textbox*/
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            -webkit-box-shadow: 0 0 0 30px $primary inset !important;
+            -webkit-text-fill-color: $accent !important;
+        }
+    }
 }

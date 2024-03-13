@@ -12,6 +12,12 @@
     display: flex;
     justify-content: center;
 
+    @media (max-width: 768px) {
+        background: url('../../images/Website_features/Projects/Projects_bg_phone.png')
+            center center no-repeat;
+        width: 100%;
+    }
+
     .WIPContent {
         position: fixed;
         display: flex;
@@ -29,15 +35,20 @@
         flex-wrap: wrap;
         justify-content: center;
         align-content: flex-start;
+        text-align: center;
 
         h1 {
             font-size: clamp(48px, 5vw, 96px);
-            font-family: $font-primary;
             font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-style: normal;
+            text-align: center;
         }
 
         p {
-            margin: 0;
+            margin: 0 60px;
             font-size: 20px;
         }
     }

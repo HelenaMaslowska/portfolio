@@ -26,17 +26,18 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background-image: url('./images/Website_features/Hero/bg_scroll.png');
+    background-image: url('./images/Website_features/bg_scroll.png');
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #fcff62;
-    box-shadow: 0em 0em 1em rgba(243, 241, 111, 0.863);
+    box-shadow: 0em 0em 1em rgb(243, 241, 111);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
+    border: 2px solid white;
     background: #8527bb;
-    background-image: url('./images/Website_features/Hero/scrollbar.png');
+    background-image: url('./images/Website_features/scrollbar.png');
 }
