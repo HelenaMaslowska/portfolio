@@ -81,17 +81,7 @@ import box6t from '../../images/IT/MinecraftBox/M06_tn.jpg'
 
 // traveling salesman problem
 import traveling1 from '../../images/IT/TravelingSalesmanProblem/A01.png'
-
 import traveling1t from '../../images/IT/TravelingSalesmanProblem/A01_tn.jpg'
-
-// bombs online
-import bombs1 from '../../images/IT/BombsOnline/B01.png'
-import bombs2 from '../../images/IT/BombsOnline/B02_copy.png'
-import bombs3 from '../../images/IT/BombsOnline/B03.png'
-
-import bombs1t from '../../images/IT/BombsOnline/B01_tn.jpg'
-import bombs2t from '../../images/IT/BombsOnline/B02_copy_tn.jpg'
-import bombs3t from '../../images/IT/BombsOnline/B03_tn.jpg'
 
 // voluman
 import voluman1 from '../../images/IT/Voluman/V01.png'
@@ -132,6 +122,15 @@ import minesweeper1t from '../../images/Games/Minesweeper/M01_tn.jpg'
 import minesweeper2t from '../../images/Games/Minesweeper/M02_tn.jpg'
 import minesweeper3t from '../../images/Games/Minesweeper/M03_tn.jpg'
 import minesweeper4t from '../../images/Games/Minesweeper/M04_tn.jpg'
+
+// bombs online
+import bombs1 from '../../images/IT/BombsOnline/B01.png'
+import bombs2 from '../../images/IT/BombsOnline/B02_copy.png'
+import bombs3 from '../../images/IT/BombsOnline/B03.png'
+
+import bombs1t from '../../images/IT/BombsOnline/B01_tn.jpg'
+import bombs2t from '../../images/IT/BombsOnline/B02_copy_tn.jpg'
+import bombs3t from '../../images/IT/BombsOnline/B03_tn.jpg'
 
 // Ships
 import ships1 from '../../images/Games/Ships/S01.png'
@@ -399,31 +398,6 @@ export const projects = [
                     },
                 ],
             },
-
-            {
-                id: 1,
-                title: 'Bombs Online',
-                icon: github,
-                link: 'https://github.com/HelenaMaslowska/bombs-online',
-                description:
-                    'Bombs Online is a 2D game developed on Linux Ubuntu using C++ and Qt Creator 6. This educational Bomberman-style game operates on a client-server model, utilizing the TCP/IP protocol and sockets. You can play the game on two or more computers within the same network. Simply provide the server\'s IP address and the port on which the game should run. After entering both values, click "Set up," set your nickname, and click "Start." When all players in the room declare that they are ready to play, the game begins.',
-                description2:
-                    "If there are more than 4 players, multiple rooms will be created to accommodate everyone. In the game, you can move your character using the WASD keys and place bombs using the X key. At the start of the game, you have 3 hit points (HP), 1 explosion range, 1 speed, and more, but you can change these values through power-ups. You'll find power-ups where crates exploded. Below, there is a description of what each color of crate does. The game ends when there is only one player left alive. The game's source code is available on my GitHub.",
-                photos: [
-                    {
-                        original: bombs1,
-                        thumbnail: bombs1t,
-                    },
-                    {
-                        original: bombs2,
-                        thumbnail: bombs2t,
-                    },
-                    {
-                        original: bombs3,
-                        thumbnail: bombs3t,
-                    },
-                ],
-            },
             {
                 id: 2,
                 title: 'MyFashion',
@@ -604,36 +578,31 @@ export const projects = [
         longDescription: '',
         list: [
             {
-                id: 3,
-                title: 'Ships',
+                id: 1,
+                title: 'Bombs Online',
                 icon: github,
-                link: '',
-                description: '',
+                link: 'https://github.com/HelenaMaslowska/bombs-online',
+                description:
+                    'Bombs Online is a 2D game developed on Linux Ubuntu using C++ and Qt Creator 6. This educational Bomberman-style game operates on a client-server model, utilizing the TCP/IP protocol and sockets. You can play the game on two or more computers within the same network. Simply provide the server\'s IP address and the port on which the game should run. After entering both values, click "Set up," set your nickname, and click "Start." When all players in the room declare that they are ready to play, the game begins.',
+                description2:
+                    "If there are more than 4 players, multiple rooms will be created to accommodate everyone. In the game, you can move your character using the WASD keys and place bombs using the X key. At the start of the game, you have 3 hit points (HP), 1 explosion range, 1 speed, and more, but you can change these values through power-ups. You'll find power-ups where crates exploded. Below, there is a description of what each color of crate does. The game ends when there is only one player left alive. The game's source code is available on my GitHub.",
                 photos: [
                     {
-                        original: ships1,
-                        thumbnail: ships1t,
+                        original: bombs1,
+                        thumbnail: bombs1t,
                     },
                     {
-                        original: ships2,
-                        thumbnail: ships2t,
+                        original: bombs2,
+                        thumbnail: bombs2t,
                     },
                     {
-                        original: ships3,
-                        thumbnail: ships3t,
-                    },
-                    {
-                        original: ships4,
-                        thumbnail: ships4t,
-                    },
-                    {
-                        original: ships5,
-                        thumbnail: ships5t,
+                        original: bombs3,
+                        thumbnail: bombs3t,
                     },
                 ],
             },
             {
-                id: 1,
+                id: 2,
                 title: 'Minesweeper',
                 icon: github,
                 link: '',
@@ -658,19 +627,19 @@ export const projects = [
                 ],
             },
             {
-                id: 4,
+                id: 3,
                 title: 'Game of life',
                 icon: github,
                 link: '',
                 description: '',
                 photos: [
                     {
-                        original: life1,
-                        thumbnail: life1t,
-                    },
-                    {
                         original: life2,
                         thumbnail: life2t,
+                    },
+                    {
+                        original: life1,
+                        thumbnail: life1t,
                     },
                     {
                         original: life3,
@@ -679,6 +648,35 @@ export const projects = [
                     {
                         original: life4,
                         thumbnail: life4t,
+                    },
+                ],
+            },
+            {
+                id: 4,
+                title: 'Ships',
+                icon: github,
+                link: '',
+                description: '',
+                photos: [
+                    {
+                        original: ships1,
+                        thumbnail: ships1t,
+                    },
+                    {
+                        original: ships2,
+                        thumbnail: ships2t,
+                    },
+                    {
+                        original: ships3,
+                        thumbnail: ships3t,
+                    },
+                    {
+                        original: ships4,
+                        thumbnail: ships4t,
+                    },
+                    {
+                        original: ships5,
+                        thumbnail: ships5t,
                     },
                 ],
             },
@@ -823,6 +821,22 @@ export const projects = [
                         thumbnail: pmodel1t,
                     },
                     {
+                        original: pmodel9,
+                        thumbnail: pmodel9t,
+                    },
+                    {
+                        original: pmodel10,
+                        thumbnail: pmodel10t,
+                    },
+                    {
+                        original: pmodel12,
+                        thumbnail: pmodel12t,
+                    },
+                    {
+                        original: pmodel11,
+                        thumbnail: pmodel11t,
+                    },
+                    {
                         original: pmodel2,
                         thumbnail: pmodel2t,
                     },
@@ -850,22 +864,6 @@ export const projects = [
                         original: pmodel8,
                         thumbnail: pmodel8t,
                     },
-                    {
-                        original: pmodel9,
-                        thumbnail: pmodel9t,
-                    },
-                    {
-                        original: pmodel10,
-                        thumbnail: pmodel10t,
-                    },
-                    {
-                        original: pmodel11,
-                        thumbnail: pmodel11t,
-                    },
-                    {
-                        original: pmodel12,
-                        thumbnail: pmodel12t,
-                    },
                 ],
             },
             {
@@ -878,40 +876,24 @@ export const projects = [
                         thumbnail: model1t,
                     },
                     {
-                        original: model2,
-                        thumbnail: model2t,
-                    },
-                    {
-                        original: model3,
-                        thumbnail: model3t,
-                    },
-                    {
                         original: model4,
                         thumbnail: model4t,
-                    },
-                    {
-                        original: model5,
-                        thumbnail: model5t,
                     },
                     {
                         original: model6,
                         thumbnail: model6t,
                     },
                     {
-                        original: model7,
-                        thumbnail: model7t,
-                    },
-                    {
                         original: model8,
                         thumbnail: model8t,
                     },
                     {
-                        original: model9,
-                        thumbnail: model9t,
+                        original: model7,
+                        thumbnail: model7t,
                     },
                     {
-                        original: model10,
-                        thumbnail: model10t,
+                        original: model9,
+                        thumbnail: model9t,
                     },
                 ],
             },
