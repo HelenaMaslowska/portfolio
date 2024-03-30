@@ -23,8 +23,8 @@ export default function WelcomeLayout() {
     const min_bird_size = [1, 2, 3, 4]
     const max_bird_size = [3, 3, 3, 6]
 
-    var skyParallaxStart = [10, 40, 50, 40]
-    var skyParallaxEnd = [-10, -40, -90, -40]
+    var skyParallaxStart = [20, 30, 50, 40]
+    var skyParallaxEnd = [-20, -30, -90, -40]
 
     var mountainParallaxStart = [60, 20, 0, 70]
     var mountainParallaxEnd = [-70, -25, 0, -80]
@@ -36,42 +36,38 @@ export default function WelcomeLayout() {
             mountain3 = mountain3phone
             sun = sun_phone
             glow = glow_phone
-            skyParallaxStart = [10, 40, 0, 40]
-            skyParallaxEnd = [-10, -40, 0, -40]
+            skyParallaxStart = [10, 20, 0, 40]
+            skyParallaxEnd = [-10, -20, 0, -40]
             mountainParallaxStart = [0, 0, 0, 0]
         }
     }, [window.innerWidth])
 
     const starsLeftP = useParallax({
+        translateX: [skyParallaxStart[0], skyParallaxEnd[0]],
         translateY: [skyParallaxStart[0], skyParallaxEnd[0]],
     })
     const starsRightP = useParallax({
+        translateX: [skyParallaxStart[1], skyParallaxEnd[1]],
         translateY: [skyParallaxStart[1], skyParallaxEnd[1]],
     })
     const glowP = useParallax({
         translateY: [skyParallaxStart[2], skyParallaxEnd[2]],
     })
 
-    const mountain1P = useParallax({
-        translateY: [mountainParallaxStart[0], mountainParallaxEnd[0]],
-    })
-    const mountain2P = useParallax({
-        translateY: [mountainParallaxStart[1], mountainParallaxEnd[1]],
-    })
-    const mountain3P = useParallax({
-        translateY: [mountainParallaxStart[2], mountainParallaxEnd[2]],
-    })
+    // const mountain1P = useParallax({
+    //     translateY: [mountainParallaxStart[0], mountainParallaxEnd[0]],
+    // })
+    // const mountain2P = useParallax({
+    //     translateY: [mountainParallaxStart[1], mountainParallaxEnd[1]],
+    // })
+    // const mountain3P = useParallax({
+    //     translateY: [mountainParallaxStart[2], mountainParallaxEnd[2]],
+    // })
 
     return (
         <div className="backgroundOnly">
             <div className="home">
                 <div className="hero">
-                    <img
-                        ref={starsLeftP.ref}
-                        src={stars_blurred}
-                        alt="stars"
-                        className="stars"
-                    />
                     <img
                         ref={starsLeftP.ref}
                         src={stars_left}
@@ -104,7 +100,7 @@ export default function WelcomeLayout() {
                         />
                     ))}
                     <img
-                        ref={mountain1P.ref}
+                        // ref={mountain1P.ref}
                         src={mountain1}
                         alt="mountain"
                         className="mountain1"
@@ -121,7 +117,7 @@ export default function WelcomeLayout() {
                         />
                     ))}
                     <img
-                        ref={mountain2P.ref}
+                        // ref={mountain2P.ref}
                         src={mountain2}
                         alt="mountain"
                         className="mountain2"
@@ -139,7 +135,7 @@ export default function WelcomeLayout() {
                     ))}
                     <div>
                         <img
-                            ref={mountain3P.ref}
+                            // ref={mountain3P.ref}
                             src={mountain3}
                             alt="mountain"
                             className="mountain3"

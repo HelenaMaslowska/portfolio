@@ -9,6 +9,55 @@ import github from '../../images/Icons/github.png'
 import youtube from '../../images/Icons/youtube.png'
 import website from '../../images/Icons/website.png'
 
+/* CAD */
+// CAD background
+import CADbackground from '../../images/CAD/CAD.png'
+
+// wood furniture
+import realfurniture1 from '../../images/CAD/Furniture1/F11.jpeg'
+import realfurniture2 from '../../images/CAD/Furniture1/F12.jpeg'
+import realfurniture3 from '../../images/CAD/Furniture1/F13.jpeg'
+import realfurniture4 from '../../images/CAD/Furniture1/F14.jpg'
+import realfurniture5 from '../../images/CAD/Furniture1/F15.jpeg'
+import realfurniture6 from '../../images/CAD/Furniture1/F16.png'
+import realfurniture7 from '../../images/CAD/Furniture1/F17.JPEG'
+import realfurniture8 from '../../images/CAD/Furniture1/F18.JPEG'
+import realfurniture9 from '../../images/CAD/Furniture1/F19.png'
+
+import realfurniture1t from '../../images/CAD/Furniture1/F11_tn.jpg'
+import realfurniture2t from '../../images/CAD/Furniture1/F12_tn.jpg'
+import realfurniture3t from '../../images/CAD/Furniture1/F13_tn.jpg'
+import realfurniture4t from '../../images/CAD/Furniture1/F14_tn.jpg'
+import realfurniture5t from '../../images/CAD/Furniture1/F15_tn.jpg'
+import realfurniture6t from '../../images/CAD/Furniture1/F16_tn.jpg'
+import realfurniture7t from '../../images/CAD/Furniture1/F17_tn.jpg'
+import realfurniture8t from '../../images/CAD/Furniture1/F18_tn.jpg'
+import realfurniture9t from '../../images/CAD/Furniture1/F19_tn.jpg'
+
+// cardboard furniture
+import cardboardfurniture2 from '../../images/CAD/Furniture2/F02.jpeg'
+import cardboardfurniture3 from '../../images/CAD/Furniture2/F03.jpg'
+import cardboardfurniture4 from '../../images/CAD/Furniture2/F04.jpg'
+import cardboardfurniture5 from '../../images/CAD/Furniture2/F05.jpg'
+
+import cardboardfurniture2t from '../../images/CAD/Furniture2/F02_tn.jpg'
+import cardboardfurniture3t from '../../images/CAD/Furniture2/F03_tn.jpg'
+import cardboardfurniture4t from '../../images/CAD/Furniture2/F04_tn.jpg'
+import cardboardfurniture5t from '../../images/CAD/Furniture2/F05_tn.jpg'
+
+// stands
+import stand1 from '../../images/CAD/Stands/P09.png'
+import stand2 from '../../images/CAD/Stands/P10.png'
+import stand3 from '../../images/CAD/Stands/P11.png'
+import stand4 from '../../images/CAD/Stands/P12.png'
+import stand5 from '../../images/CAD/Stands/P13.jpg'
+
+import stand1t from '../../images/CAD/Stands/P09_tn.jpg'
+import stand2t from '../../images/CAD/Stands/P10_tn.jpg'
+import stand3t from '../../images/CAD/Stands/P11_tn.jpg'
+import stand4t from '../../images/CAD/Stands/P12_tn.jpg'
+import stand5t from '../../images/CAD/Stands/P13_tn.jpg'
+
 /* IT */
 // IT background
 import ITbackground from '../../images/IT/IT.jpg'
@@ -71,6 +120,7 @@ import box3 from '../../images/IT/MinecraftBox/M03.jpg'
 import box4 from '../../images/IT/MinecraftBox/M04.jpg'
 import box5 from '../../images/IT/MinecraftBox/M05.jpg'
 import box6 from '../../images/IT/MinecraftBox/M06.jpg'
+import box7 from '../../images/IT/MinecraftBox/M07.jpg'
 
 import box1t from '../../images/IT/MinecraftBox/M01_tn.jpg'
 import box2t from '../../images/IT/MinecraftBox/M02_tn.jpg'
@@ -78,6 +128,7 @@ import box3t from '../../images/IT/MinecraftBox/M03_tn.jpg'
 import box4t from '../../images/IT/MinecraftBox/M04_tn.jpg'
 import box5t from '../../images/IT/MinecraftBox/M05_tn.jpg'
 import box6t from '../../images/IT/MinecraftBox/M06_tn.jpg'
+import box7t from '../../images/IT/MinecraftBox/M07_tn.jpg'
 
 // traveling salesman problem
 import traveling1 from '../../images/IT/TravelingSalesmanProblem/A01.png'
@@ -166,37 +217,6 @@ import gamejam1t from '../../images/Games/Game Jams/G01_tn.jpg'
 import gamejam2t from '../../images/Games/Game Jams/G02_tn.jpg'
 import gamejam3t from '../../images/Games/Game Jams/G03_tn.jpg'
 import gamejam4t from '../../images/Games/Game Jams/G04_tn.jpg'
-
-/* FURNITURES */
-// 1 furniture
-import cardboardfurniture2 from '../../images/Furnitures/Cardboard/F02.jpeg'
-import cardboardfurniture3 from '../../images/Furnitures/Cardboard/F03.jpg'
-import cardboardfurniture4 from '../../images/Furnitures/Cardboard/F04.jpg'
-import cardboardfurniture5 from '../../images/Furnitures/Cardboard/F05.jpg'
-
-import cardboardfurniture2t from '../../images/Furnitures/Cardboard/F02_tn.jpg'
-import cardboardfurniture3t from '../../images/Furnitures/Cardboard/F03_tn.jpg'
-import cardboardfurniture4t from '../../images/Furnitures/Cardboard/F04_tn.jpg'
-import cardboardfurniture5t from '../../images/Furnitures/Cardboard/F05_tn.jpg'
-
-// 1 furniture
-import realfurniture1 from '../../images/Furnitures/Wood/F11.jpeg'
-import realfurniture2 from '../../images/Furnitures/Wood/F12.jpeg'
-//import realfurniture3 from '../../images/Furnitures/Wood/F13.jpeg';
-import realfurniture4 from '../../images/Furnitures/Wood/F14.jpg'
-import realfurniture5 from '../../images/Furnitures/Wood/F15.jpeg'
-import realfurniture6 from '../../images/Furnitures/Wood/F16.png'
-//import realfurniture7 from '../../images/Furnitures/Wood/F17.JPEG';
-import realfurniture8 from '../../images/Furnitures/Wood/F18.JPEG'
-
-import realfurniture1t from '../../images/Furnitures/Wood/F11_tn.jpg'
-import realfurniture2t from '../../images/Furnitures/Wood/F12_tn.jpg'
-//import realfurniture3t from '../../images/Furnitures/Wood/F13_tn.jpg';
-import realfurniture4t from '../../images/Furnitures/Wood/F14_tn.jpg'
-import realfurniture5t from '../../images/Furnitures/Wood/F15_tn.jpg'
-import realfurniture6t from '../../images/Furnitures/Wood/F16_tn.jpg'
-//import realfurniture7t from '../../images/Furnitures/Wood/F17_tn.jpg';
-import realfurniture8t from '../../images/Furnitures/Wood/F18_tn.jpg'
 
 /* MODELS */
 // models project
@@ -330,10 +350,101 @@ import art2 from '../../images/Paintings/Art/A02.jpg'
 
 import art1t from '../../images/Paintings/Art/A01_tn.jpg'
 import art2t from '../../images/Paintings/Art/A02_tn.jpg'
-
+/**
+ * icon - youtube, github, website
+ */
 export const projects = [
     {
-        id: 0,
+        id: 1,
+        title: 'CAD & Furnitures',
+        photo: CADbackground,
+        shortDescription: '',
+        longDescription: '',
+        list: [
+            {
+                id: 2,
+                title: 'Areograph stand',
+                description:
+                    'I measured, planned, designed and developed these models. All rights reserved.',
+                photos: [
+                    {
+                        original: stand1,
+                        thumbnail: stand1t,
+                    },
+                    {
+                        original: stand2,
+                        thumbnail: stand2t,
+                    },
+                ],
+            },
+            {
+                id: 0,
+                title: 'Shoe cabinet',
+                icon: youtube,
+                link: 'https://www.youtube.com/watch?v=k_Nu23nSaIw',
+                description:
+                    "I began this project from scratch, starting with planning, precise measurements, and detailed drawings. Using Blender, I created a 3D model that represents the individual components and the materials from which the furniture piece will be constructed. Constructed from a combination of wood, plastic, and sturdy metal pipes, it has been fastened together using screws. This furniture piece boasts a comfortable foam cushion. It's designed to support the weight of an individual up to 100 kilograms (220.5 pounds), making it both stylish and sturdy for anyone to sit on. With the except of wallpaper this furniture piece is crafted exclusively from eco-friendly, recycled materials",
+                photos: [
+                    {
+                        original: realfurniture4,
+                        thumbnail: realfurniture4t,
+                    },
+                    {
+                        original: realfurniture5,
+                        thumbnail: realfurniture5t,
+                    },
+                    {
+                        original: realfurniture9,
+                        thumbnail: realfurniture9t,
+                    },
+                    {
+                        original: realfurniture6,
+                        thumbnail: realfurniture6t,
+                    },
+                    {
+                        original: realfurniture1,
+                        thumbnail: realfurniture1t,
+                    },
+                    {
+                        original: realfurniture8,
+                        thumbnail: realfurniture8t,
+                    },
+                    {
+                        original: realfurniture2,
+                        thumbnail: realfurniture2t,
+                    },
+                ],
+            },
+            {
+                id: 1,
+                title: 'Cardboard furniture',
+                icon: youtube,
+                link: 'https://www.youtube.com/watch?v=ZXBVxCk6UNE',
+                description:
+                    'I crafted my first piece of furniture from cardboard, dedicating 10 days of work. It was for my purposes. Constructed from cardboard, securely fastened with glue. Used every day to store items. I was surprised how strong cardboard could be and decided to do another project.',
+                photos: [
+                    {
+                        original: cardboardfurniture5,
+                        thumbnail: cardboardfurniture5t,
+                    },
+                    {
+                        original: cardboardfurniture4,
+                        thumbnail: cardboardfurniture4t,
+                    },
+                    {
+                        original: cardboardfurniture3,
+                        thumbnail: cardboardfurniture3t,
+                    },
+                    {
+                        original: cardboardfurniture2,
+                        thumbnail: cardboardfurniture2t,
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        id: 2,
         title: 'IT',
         photo: ITbackground,
         shortDescription:
@@ -397,6 +508,14 @@ export const projects = [
                         thumbnail: voluman6t,
                     },
                 ],
+            },
+            {
+                id: 1,
+                title: 'Task scheduling',
+                description:
+                    'My first attempt at solving a task scheduling problem, where tasks have completion times and due dates, earned second place in a competition. It took just 44 milliseconds to complete a 500-item instance. The winning program took 1.7 seconds on the same instance but had only one less task delayed than mine.',
+                description2:
+                    'I have developed three variations of this project, each with unique specifications including varying numbers and speeds of machines, distinct ready dates, due dates, processing times, and differing breaks between tasks.',
             },
             {
                 id: 2,
@@ -549,6 +668,10 @@ export const projects = [
                         original: box6,
                         thumbnail: box6t,
                     },
+                    {
+                        original: box7,
+                        thumbnail: box7t,
+                    },
                 ],
             },
             {
@@ -570,7 +693,7 @@ export const projects = [
         ],
     },
     {
-        id: 1,
+        id: 4,
         title: 'Games',
         photo: gamesbackground,
         shortDescription:
@@ -709,77 +832,7 @@ export const projects = [
         ],
     },
     {
-        id: 2,
-        title: 'Furnitures',
-        photo: realfurniture2,
-        shortDescription:
-            'I create furniture from cardboard and wood, including personalized coasters, shoe cabinets, and drawers. My eco-conscious approach repurposes found materials, blending sustainability with functional design for enhanced living spaces.',
-        longDescription: '',
-        list: [
-            {
-                id: 1,
-                title: 'Cardboard furniture',
-                icon: youtube,
-                link: 'https://www.youtube.com/watch?v=ZXBVxCk6UNE',
-                description:
-                    'I crafted my first piece of furniture from cardboard, dedicating 10 days of work. It was for my purposes. Constructed from cardboard, securely fastened with glue. Used every day to store items. I was surprised how strong cardboard could be and decided to do another project.',
-                photos: [
-                    {
-                        original: cardboardfurniture5,
-                        thumbnail: cardboardfurniture5t,
-                    },
-                    {
-                        original: cardboardfurniture4,
-                        thumbnail: cardboardfurniture4t,
-                    },
-                    {
-                        original: cardboardfurniture3,
-                        thumbnail: cardboardfurniture3t,
-                    },
-                    {
-                        original: cardboardfurniture2,
-                        thumbnail: cardboardfurniture2t,
-                    },
-                ],
-            },
-            {
-                id: 2,
-                title: 'Shoe cabinet',
-                icon: youtube,
-                link: 'https://www.youtube.com/watch?v=k_Nu23nSaIw',
-                description:
-                    "I began this project from scratch, starting with planning, precise measurements, and detailed drawings. Using Blender, I created a 3D model that represents the individual components and the materials from which the furniture piece will be constructed. Constructed from a combination of wood, plastic, and sturdy metal pipes, it has been fastened together using screws. This furniture piece boasts a comfortable foam cushion. It's designed to support the weight of an individual up to 100 kilograms (220.5 pounds), making it both stylish and sturdy for anyone to sit on. With the except of wallpaper this furniture piece is crafted exclusively from eco-friendly, recycled materials",
-                photos: [
-                    {
-                        original: realfurniture4,
-                        thumbnail: realfurniture4t,
-                    },
-                    {
-                        original: realfurniture5,
-                        thumbnail: realfurniture5t,
-                    },
-                    {
-                        original: realfurniture6,
-                        thumbnail: realfurniture6t,
-                    },
-                    {
-                        original: realfurniture1,
-                        thumbnail: realfurniture1t,
-                    },
-                    {
-                        original: realfurniture8,
-                        thumbnail: realfurniture8t,
-                    },
-                    {
-                        original: realfurniture2,
-                        thumbnail: realfurniture2t,
-                    },
-                ],
-            },
-        ],
-    },
-    {
-        id: 3,
+        id: 8,
         title: 'Models',
         photo: sample,
         shortDescription:
@@ -900,7 +953,7 @@ export const projects = [
         ],
     },
     {
-        id: 4,
+        id: 10,
         title: 'Art',
         photo: landscape5,
         shortDescription:
