@@ -31,7 +31,7 @@ export default function Gallery() {
     }, [])
 
     const classItem =
-        width > 768
+        width > 1000
             ? 'listOfProjectsContainer container_12'
             : 'listOfProjectsContainer'
 

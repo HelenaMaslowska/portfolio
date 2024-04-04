@@ -374,13 +374,11 @@ export const projects = [
                 title: 'Furniture App',
                 description: '',
                 iframes: (
-                    <div className="mobileApp">
-                        <iframe
-                            className="mobileApp__inside"
-                            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsynI6qyf9oSMwH868VxKOt%2FMobile-app%3Fpage-id%3D7%253A21%26type%3Ddesign%26node-id%3D7-22%26viewport%3D414%252C476%252C0.13%26t%3D6fVEaTfx1Ajf2kia-1%26scaling%3Dscale-down%26starting-point-node-id%3D7%253A22%26show-proto-sidebar%3D1%26mode%3Ddesign"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
+                    <iframe
+                        className="mobileApp__inside"
+                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsynI6qyf9oSMwH868VxKOt%2FMobile-app%3Fpage-id%3D7%253A21%26type%3Ddesign%26node-id%3D7-22%26viewport%3D414%252C476%252C0.13%26t%3D6fVEaTfx1Ajf2kia-1%26scaling%3Dscale-down%26starting-point-node-id%3D7%253A22%26show-proto-sidebar%3D1%26mode%3Ddesign"
+                        allowfullscreen
+                    ></iframe>
                 ),
             },
             {

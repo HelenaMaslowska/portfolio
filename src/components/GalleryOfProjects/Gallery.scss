@@ -23,16 +23,3 @@
     min-width: unset;
     width: 960px;
 }
-
-.mobileApp {
-    height: 100vh;
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    &__inside {
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-}
