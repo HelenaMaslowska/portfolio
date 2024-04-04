@@ -140,12 +140,12 @@ export default function WelcomeLayout() {
                             alt="mountain"
                             className="mountain3"
                         />
-                        <div className="welcomeText">
+                        {/* <div className="welcomeText">
                             <p>
                                 Welcome to my portfolio! Looking for my
                                 projects? Scroll below to see more :)
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                     {[...Array(2)].map((x, i) => (
                         <Bird
