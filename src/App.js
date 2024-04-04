@@ -13,12 +13,12 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 	To run this app on website, you need to:
 	
 (on master)
-	npm run deploy      -  RUN THIS to publish your website
-
-(on master)
 	git add .			- add changes to repo only, you don't need to do it to publish website
 	git commit -m "Configure React app for deployment to GitHub Pages"
-	git push origin master
+	git push origin master	
+
+(on master)
+	npm run deploy      -  RUN THIS to publish your website
 
 	master - contain source code - here you send your changes and run deploy, you work on this file
 	gh-pages - contain distributable version of the React app, which is deployed to GitHub Pages

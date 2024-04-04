@@ -13,10 +13,10 @@ export default function Project(props) {
             <div className="push_1 grid_10">
                 {props.project.photos && (
                     <ImageGallery items={props.project.photos} />
-
                     // props.project.photos.map((element) => ( <img className='grid_4 projectPhoto' src={element.photo} alt="" />  ))
                 )}
             </div>
+            {props.project.iframes}
             {/* <img className='grid_8 prefix_2 suffix_9 projectPhoto' src={props.project.photo} alt=""/> */}
 
             {props.project.link && (

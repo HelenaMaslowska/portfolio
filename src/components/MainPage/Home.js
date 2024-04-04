@@ -15,6 +15,9 @@ export default function Home() {
             {window.innerWidth > 768 && (
                 <img src={separator} className="separator" />
             )}
+            {window.innerWidth > 1080 && window.innerHeight < 800 && (
+                <img src={separator} className="separator" />
+            )}
 
             <TopicList />
         </div>

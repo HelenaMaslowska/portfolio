@@ -9,6 +9,26 @@ import github from '../../images/Icons/github.png'
 import youtube from '../../images/Icons/youtube.png'
 import website from '../../images/Icons/website.png'
 
+/* Mobile */
+// Mobile background
+import mobilebackground from '../../images/Mobile/mobilebg.jpg'
+// MyFashion
+import myfashion1 from '../../images/Mobile/MyFashion/M01.jpg'
+import myfashion2 from '../../images/Mobile/MyFashion/M02.jpg'
+import myfashion3 from '../../images/Mobile/MyFashion/M03.jpg'
+import myfashion4 from '../../images/Mobile/MyFashion/M04.jpg'
+import myfashion5 from '../../images/Mobile/MyFashion/M05.jpg'
+import myfashion6 from '../../images/Mobile/MyFashion/M06.jpg'
+import myfashion7 from '../../images/Mobile/MyFashion/M07.png'
+
+import myfashion1t from '../../images/Mobile/MyFashion/M01_tn.jpg'
+import myfashion2t from '../../images/Mobile/MyFashion/M02_tn.jpg'
+import myfashion3t from '../../images/Mobile/MyFashion/M03_tn.jpg'
+import myfashion4t from '../../images/Mobile/MyFashion/M04_tn.jpg'
+import myfashion5t from '../../images/Mobile/MyFashion/M05_tn.jpg'
+import myfashion6t from '../../images/Mobile/MyFashion/M06_tn.jpg'
+import myfashion7t from '../../images/Mobile/MyFashion/M07_tn.jpg'
+
 /* CAD */
 // CAD background
 import CADbackground from '../../images/CAD/CAD.png'
@@ -62,22 +82,34 @@ import stand5t from '../../images/CAD/Stands/P13_tn.jpg'
 // IT background
 import ITbackground from '../../images/IT/IT.jpg'
 
-// MyFashion
-import myfashion1 from '../../images/IT/MyFashion/M01.jpg'
-import myfashion2 from '../../images/IT/MyFashion/M02.jpg'
-import myfashion3 from '../../images/IT/MyFashion/M03.jpg'
-import myfashion4 from '../../images/IT/MyFashion/M04.jpg'
-import myfashion5 from '../../images/IT/MyFashion/M05.jpg'
-import myfashion6 from '../../images/IT/MyFashion/M06.jpg'
-import myfashion7 from '../../images/IT/MyFashion/M07.png'
+// voluman
+import voluman1 from '../../images/IT/Voluman/V01.png'
+import voluman2 from '../../images/IT/Voluman/V02.png'
+import voluman3 from '../../images/IT/Voluman/V03.png'
+import voluman4 from '../../images/IT/Voluman/V04.png'
+import voluman5 from '../../images/IT/Voluman/V05.png'
+import voluman6 from '../../images/IT/Voluman/V06.png'
+import voluman7 from '../../images/IT/Voluman/V07.png'
+import voluman8 from '../../images/IT/Voluman/V08.png'
+import voluman9 from '../../images/IT/Voluman/V09.png'
+import voluman10 from '../../images/IT/Voluman/V10.png'
+import voluman11 from '../../images/IT/Voluman/V11.png'
 
-import myfashion1t from '../../images/IT/MyFashion/M01_tn.jpg'
-import myfashion2t from '../../images/IT/MyFashion/M02_tn.jpg'
-import myfashion3t from '../../images/IT/MyFashion/M03_tn.jpg'
-import myfashion4t from '../../images/IT/MyFashion/M04_tn.jpg'
-import myfashion5t from '../../images/IT/MyFashion/M05_tn.jpg'
-import myfashion6t from '../../images/IT/MyFashion/M06_tn.jpg'
-import myfashion7t from '../../images/IT/MyFashion/M07_tn.jpg'
+import voluman1t from '../../images/IT/Voluman/V01_tn.jpg'
+import voluman2t from '../../images/IT/Voluman/V02_tn.jpg'
+import voluman3t from '../../images/IT/Voluman/V03_tn.jpg'
+import voluman4t from '../../images/IT/Voluman/V04_tn.jpg'
+import voluman5t from '../../images/IT/Voluman/V05_tn.jpg'
+import voluman6t from '../../images/IT/Voluman/V06_tn.jpg'
+import voluman7t from '../../images/IT/Voluman/V07_tn.jpg'
+import voluman8t from '../../images/IT/Voluman/V08_tn.jpg'
+import voluman9t from '../../images/IT/Voluman/V09_tn.jpg'
+import voluman10t from '../../images/IT/Voluman/V10_tn.jpg'
+import voluman11t from '../../images/IT/Voluman/V11_tn.jpg'
+
+// task scheduling
+import task1 from '../../images/IT/TaskScheduling/T01.png'
+import task2 from '../../images/IT/TaskScheduling/T02.png'
 
 // retinal vessel segmentation
 import retinal1 from '../../images/IT/RetinalVesselSegmentation/R01.png'
@@ -133,31 +165,6 @@ import box7t from '../../images/IT/MinecraftBox/M07_tn.jpg'
 // traveling salesman problem
 import traveling1 from '../../images/IT/TravelingSalesmanProblem/A01.png'
 import traveling1t from '../../images/IT/TravelingSalesmanProblem/A01_tn.jpg'
-
-// voluman
-import voluman1 from '../../images/IT/Voluman/V01.png'
-import voluman2 from '../../images/IT/Voluman/V02.png'
-import voluman3 from '../../images/IT/Voluman/V03.png'
-import voluman4 from '../../images/IT/Voluman/V04.png'
-import voluman5 from '../../images/IT/Voluman/V05.png'
-import voluman6 from '../../images/IT/Voluman/V06.png'
-import voluman7 from '../../images/IT/Voluman/V07.png'
-import voluman8 from '../../images/IT/Voluman/V08.png'
-import voluman9 from '../../images/IT/Voluman/V09.png'
-import voluman10 from '../../images/IT/Voluman/V10.png'
-import voluman11 from '../../images/IT/Voluman/V11.png'
-
-import voluman1t from '../../images/IT/Voluman/V01_tn.jpg'
-import voluman2t from '../../images/IT/Voluman/V02_tn.jpg'
-import voluman3t from '../../images/IT/Voluman/V03_tn.jpg'
-import voluman4t from '../../images/IT/Voluman/V04_tn.jpg'
-import voluman5t from '../../images/IT/Voluman/V05_tn.jpg'
-import voluman6t from '../../images/IT/Voluman/V06_tn.jpg'
-import voluman7t from '../../images/IT/Voluman/V07_tn.jpg'
-import voluman8t from '../../images/IT/Voluman/V08_tn.jpg'
-import voluman9t from '../../images/IT/Voluman/V09_tn.jpg'
-import voluman10t from '../../images/IT/Voluman/V10_tn.jpg'
-import voluman11t from '../../images/IT/Voluman/V11_tn.jpg'
 
 /* GAMES */
 // Games background
@@ -352,11 +359,75 @@ import art1t from '../../images/Paintings/Art/A01_tn.jpg'
 import art2t from '../../images/Paintings/Art/A02_tn.jpg'
 /**
  * icon - youtube, github, website
+ * photos/iframes
  */
 export const projects = [
     {
+        id: 0,
+        title: 'Mobile',
+        photo: mobilebackground,
+        shortDescription: '',
+        longDescription: '',
+        list: [
+            {
+                id: 0,
+                title: 'Furniture App',
+                description: '',
+                iframes: (
+                    <div className="mobileApp">
+                        <iframe
+                            className="mobileApp__inside"
+                            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsynI6qyf9oSMwH868VxKOt%2FMobile-app%3Fpage-id%3D7%253A21%26type%3Ddesign%26node-id%3D7-22%26viewport%3D414%252C476%252C0.13%26t%3D6fVEaTfx1Ajf2kia-1%26scaling%3Dscale-down%26starting-point-node-id%3D7%253A22%26show-proto-sidebar%3D1%26mode%3Ddesign"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                ),
+            },
+            {
+                id: 2,
+                title: 'MyFashion',
+                icon: github,
+                link: 'https://github.com/HelenaMaslowska/MyFashion',
+                description:
+                    'MyFashion is a web application that allows users to create their own fashion designs. Users can choose from a variety of clothing items, including shirts, and pants, and customize them however they want to match. The application also includes a feature that allows users to create their own custom patterns.',
+                description2:
+                    'The application was developed using Kotlin, images is stored in Google Firebase. Jun 8, 2023',
+                photos: [
+                    {
+                        original: myfashion3,
+                        thumbnail: myfashion3t,
+                    },
+                    {
+                        original: myfashion4,
+                        thumbnail: myfashion4t,
+                    },
+                    {
+                        original: myfashion5,
+                        thumbnail: myfashion5t,
+                    },
+                    {
+                        original: myfashion6,
+                        thumbnail: myfashion6t,
+                    },
+                    {
+                        original: myfashion7,
+                        thumbnail: myfashion7t,
+                    },
+                    {
+                        original: myfashion1,
+                        thumbnail: myfashion1t,
+                    },
+                    {
+                        original: myfashion2,
+                        thumbnail: myfashion2t,
+                    },
+                ],
+            },
+        ],
+    },
+    {
         id: 1,
-        title: 'CAD & Furnitures',
+        title: 'CAD',
         photo: CADbackground,
         shortDescription: '',
         longDescription: '',
@@ -365,7 +436,7 @@ export const projects = [
                 id: 2,
                 title: 'Areograph stand',
                 description:
-                    'I measured, planned, designed and developed these models. All rights reserved.',
+                    'I measured, planned, designed and developed these models in Blender.',
                 photos: [
                     {
                         original: stand1,
@@ -438,6 +509,22 @@ export const projects = [
                     {
                         original: cardboardfurniture2,
                         thumbnail: cardboardfurniture2t,
+                    },
+                ],
+            },
+            {
+                id: 2,
+                title: 'Other',
+                description:
+                    'I use Blender to plan and design stands and minicontainers.',
+                photos: [
+                    {
+                        original: pmodel12,
+                        thumbnail: pmodel12t,
+                    },
+                    {
+                        original: pmodel11,
+                        thumbnail: pmodel11t,
                     },
                 ],
             },
@@ -516,44 +603,14 @@ export const projects = [
                     'My first attempt at solving a task scheduling problem, where tasks have completion times and due dates, earned second place in a competition. It took just 44 milliseconds to complete a 500-item instance. The winning program took 1.7 seconds on the same instance but had only one less task delayed than mine.',
                 description2:
                     'I have developed three variations of this project, each with unique specifications including varying numbers and speeds of machines, distinct ready dates, due dates, processing times, and differing breaks between tasks.',
-            },
-            {
-                id: 2,
-                title: 'MyFashion',
-                icon: github,
-                link: 'https://github.com/HelenaMaslowska/MyFashion',
-                description:
-                    'MyFashion is a web application that allows users to create their own fashion designs. Users can choose from a variety of clothing items, including shirts, and pants, and customize them however they want to match. The application also includes a feature that allows users to create their own custom patterns.',
-                description2:
-                    'The application was developed using Kotlin, images is stored in Google Firebase. Jun 8, 2023',
                 photos: [
                     {
-                        original: myfashion3,
-                        thumbnail: myfashion3t,
+                        original: task1,
+                        thumbnail: task1,
                     },
                     {
-                        original: myfashion4,
-                        thumbnail: myfashion4t,
-                    },
-                    {
-                        original: myfashion5,
-                        thumbnail: myfashion5t,
-                    },
-                    {
-                        original: myfashion6,
-                        thumbnail: myfashion6t,
-                    },
-                    {
-                        original: myfashion7,
-                        thumbnail: myfashion7t,
-                    },
-                    {
-                        original: myfashion1,
-                        thumbnail: myfashion1t,
-                    },
-                    {
-                        original: myfashion2,
-                        thumbnail: myfashion2t,
+                        original: task2,
+                        thumbnail: task2,
                     },
                 ],
             },
@@ -872,22 +929,6 @@ export const projects = [
                     {
                         original: pmodel1,
                         thumbnail: pmodel1t,
-                    },
-                    {
-                        original: pmodel9,
-                        thumbnail: pmodel9t,
-                    },
-                    {
-                        original: pmodel10,
-                        thumbnail: pmodel10t,
-                    },
-                    {
-                        original: pmodel12,
-                        thumbnail: pmodel12t,
-                    },
-                    {
-                        original: pmodel11,
-                        thumbnail: pmodel11t,
                     },
                     {
                         original: pmodel2,
