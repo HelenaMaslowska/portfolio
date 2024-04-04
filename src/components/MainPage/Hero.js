@@ -20,6 +20,8 @@ import mountain2phone from '../../images/Website_features/Hero/Mountains/mountai
 import mountain3phone from '../../images/Website_features/Hero/Mountains/mountain3_phone.png'
 
 export default function WelcomeLayout() {
+    const number_of_birds =
+        window.innerWidth > 1000 ? [20, 5, 4, 3] : [20, 8, 3, 2]
     const min_bird_size = [1, 2, 3, 4]
     const max_bird_size = [3, 3, 3, 6]
 
@@ -88,7 +90,7 @@ export default function WelcomeLayout() {
                     />
 
                     <img src={sun} alt="sun" className="sun" />
-                    {[...Array(20)].map((x, i) => (
+                    {[...Array(number_of_birds[0])].map((x, i) => (
                         <Bird
                             key={i}
                             id={'bird' + i}
@@ -105,7 +107,7 @@ export default function WelcomeLayout() {
                         alt="mountain"
                         className="mountain1"
                     />
-                    {[...Array(8)].map((x, i) => (
+                    {[...Array(number_of_birds[1])].map((x, i) => (
                         <Bird
                             key={i}
                             id={'bird' + i}
@@ -122,7 +124,7 @@ export default function WelcomeLayout() {
                         alt="mountain"
                         className="mountain2"
                     />
-                    {[...Array(3)].map((x, i) => (
+                    {[...Array(number_of_birds[2])].map((x, i) => (
                         <Bird
                             key={i}
                             id={'bird' + i}
@@ -147,7 +149,7 @@ export default function WelcomeLayout() {
                             </p>
                         </div> */}
                     </div>
-                    {[...Array(2)].map((x, i) => (
+                    {[...Array(number_of_birds[3])].map((x, i) => (
                         <Bird
                             key={i}
                             id={'bird' + i}

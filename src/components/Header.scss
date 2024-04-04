@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 header {
     display: flex;
-    padding: 0 clamp(0px, 2vw, 20px);
-    min-height: 100px;
+    padding: 30px clamp(0px, 2vw, 20px);
+    min-height: 60px;
     align-items: center;
     justify-content: right;
     font-size: calc(10px + 2vmin);
@@ -31,25 +31,29 @@ header {
 
     .headerButtons {
         display: flex;
-        gap: clamp(1px, 0.5vw, 20px);
+        flex-direction: column;
+        align-items: stretch;
+        gap: clamp(1px, 10px, 20px);
         background-repeat: no-repeat;
         mask-image: none;
         //border-bottom: 4px double #606C5D;
         //border-bottom: 4px double black;
-        align-items: center;
+
         flex-wrap: wrap;
         justify-content: center;
         z-index: 0;
 
         button {
-            border: none; //1px solid #606C5D;
-            padding: 1em min(1em, 2vw, 2em);
+            width: 100%;
+            --lines: #fff;
+            border: none; //1px solid var(--lines);
+            padding: 0.3em min(1em, 2vw, 2em);
             //color: #606C5D;
-            color: black;
+            color: var(--lines);
             font-family: 'Open Sans';
             font-size: clamp(16px, 3vw, 18px);
             letter-spacing: 4px;
-            --c: #8534a5; /* the color*/
+            --c: #8534aa; /* the color*/
 
             --_g: linear-gradient(var(--c) 0 0) no-repeat;
             background: var(--_g) calc(var(--_p, 0%) - 100%) 0%,
@@ -70,9 +74,14 @@ header {
             background-color: var(--c);
             color: #fff;
         }
+
+        @media (max-width: 768px) {
+            flex-direction: row;
+        }
     }
 
     @media (min-width: 400px) and (max-width: 768px) {
+        padding: 20px 0;
         width: 100vw;
         justify-content: center;
 
@@ -82,6 +91,7 @@ header {
     }
 
     @media (max-width: 400px) {
+        padding: 20px 0;
         width: 100vw;
         justify-content: center;
 

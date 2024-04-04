@@ -11,6 +11,8 @@
     background-attachment: fixed;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 3;
 
     @media (max-width: 768px) {
         background: url('../../images/Website_features/Projects/Projects_bg_phone.png')

@@ -10,20 +10,17 @@ export default function Header() {
     }
     return (
         <header>
-            <img className="headerImage" src={stick} alt="" />
+            {/* <img className="headerImage" src={stick} alt="" /> */}
 
             <div className="headerButtons">
                 <Link to="">
-                    {' '}
-                    <button>Home</button>{' '}
+                    <button>Home</button>
                 </Link>
                 <Link to="projects">
-                    {' '}
-                    <button>Projects</button>{' '}
+                    <button>Projects</button>
                 </Link>
                 <Link to="contact">
-                    {' '}
-                    <button>Contact me</button>{' '}
+                    <button>Contact</button>
                 </Link>
             </div>
         </header>
